@@ -4,7 +4,7 @@
  */
 
 // TODO: Replace with your Amazon Associates Tag
-const AFFILIATE_TAG = 'youraffid-20';
+const AFFILIATE_TAG = 'saucytits-20';
 
 /**
  * Generate Amazon Affiliate Link

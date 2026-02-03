@@ -7,8 +7,22 @@ function ProductCard({ product }) {
         window.open(affiliateLink, '_blank', 'noopener,noreferrer');
     };
 
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleClick();
+        }
+    };
+
     return (
-        <article className="product-card">
+        <article
+            className="product-card"
+            onClick={handleClick}
+            onKeyDown={handleKeyDown}
+            tabIndex="0"
+            role="button"
+            aria-label={`View ${product.title}`}
+        >
             <div className="product-image-wrapper">
                 <img
                     src={product.image}
@@ -32,8 +46,8 @@ function ProductCard({ product }) {
                     <span className="product-price">{product.price}</span>
                     <button
                         className="btn btn-primary product-cta"
-                        onClick={handleClick}
-                        aria-label={`View ${product.title}`}
+                        tabIndex="-1"
+                        aria-hidden="true"
                     >
                         Check It Out →
                     </button>
