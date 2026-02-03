@@ -8,7 +8,7 @@ export default function Hero() {
                     This Is Why <span className="gradient-text">I'm Broke</span>
                 </h1>
                 <p className="hero-subtitle">
-                    Discover the coolest, weirdest, and most innovative products. Your wallet won't thank you. 💸
+                    探索全球最酷、最奇葩、最具创意的尖货。你的钱包可能不会感谢你，但你的生活会！💸
                 </p>
             </div>
 

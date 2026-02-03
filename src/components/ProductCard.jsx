@@ -19,6 +19,9 @@ function ProductCard({ product }) {
                 {product.featured && (
                     <span className="featured-badge">🔥 热门</span>
                 )}
+                {product.category && product.category !== 'general' && (
+                    <span className="category-badge">{product.category}</span>
+                )}
             </div>
 
             <div className="product-content">
