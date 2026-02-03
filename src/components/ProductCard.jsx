@@ -17,7 +17,7 @@ function ProductCard({ product }) {
                     loading="lazy"
                 />
                 {product.featured && (
-                    <span className="featured-badge">🔥 热门</span>
+                    <span className="featured-badge">🔥 HOT</span>
                 )}
                 {product.category && product.category !== 'general' && (
                     <span className="category-badge">{product.category}</span>
@@ -33,9 +33,9 @@ function ProductCard({ product }) {
                     <button
                         className="btn btn-primary product-cta"
                         onClick={handleClick}
-                        aria-label={`查看 ${product.title}`}
+                        aria-label={`View ${product.title}`}
                     >
-                        去瞅瞅 →
+                        Check It Out →
                     </button>
                 </div>
             </div>

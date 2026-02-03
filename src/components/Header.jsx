@@ -9,8 +9,8 @@ export default function Header() {
                     <span className="logo-text">TIWIB</span>
                 </div>
                 <nav className="nav">
-                    <a href="#" className="nav-link">首页</a>
-                    <a href="#" className="nav-link">关于</a>
+                    <a href="#" className="nav-link">Home</a>
+                    <a href="#" className="nav-link">About</a>
                 </nav>
             </div>
         </header>

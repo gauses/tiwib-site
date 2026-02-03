@@ -8,32 +8,32 @@ function Footer() {
             <div className="footer-container">
                 <div className="footer-content">
                     <div className="footer-section">
-                        <h3 className="footer-title">毛孩子破产记</h3>
+                        <h3 className="footer-title">TIWIB Niche</h3>
                         <p className="footer-description">
-                            为宠物主人精选全球最有趣的创意产品
+                            Curating the most interesting and creative products from around the world.
                         </p>
                     </div>
 
                     <div className="footer-section">
-                        <h4 className="footer-heading">快速链接</h4>
+                        <h4 className="footer-heading">Quick Links</h4>
                         <ul className="footer-links">
-                            <li><a href="#home">首页</a></li>
-                            <li><a href="#about">关于我们</a></li>
-                            <li><a href="#privacy">隐私政策</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
                         </ul>
                     </div>
 
                     <div className="footer-section">
-                        <h4 className="footer-heading">免责声明</h4>
+                        <h4 className="footer-heading">Disclaimer</h4>
                         <p className="footer-disclaimer">
-                            本站为 Amazon 联盟营销网站。点击链接购买商品，我们可能获得佣金。
+                            We are an Amazon Associate and may earn commissions from qualifying purchases.
                         </p>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {currentYear} 毛孩子破产记. All rights reserved.</p>
-                    <p className="footer-tagline">让你的钱包为毛孩子破产 🐾</p>
+                    <p>&copy; {currentYear} TIWIB Niche. All rights reserved.</p>
+                    <p className="footer-tagline">Making your wallet lighter since 2026 💸</p>
                 </div>
             </div>
         </footer>

@@ -51,7 +51,7 @@ function ProductGrid({ products }) {
             {visibleProducts.length < products.length && (
                 <div className="loading-indicator">
                     <div className="spinner"></div>
-                    <p>加载更多好物中...</p>
+                    <p>Loading more cool stuff...</p>
                 </div>
             )}
         </div>

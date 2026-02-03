@@ -2,19 +2,19 @@ import React from 'react';
 import './CategoryFilter.css';
 
 const CATEGORY_MAP = {
-    'general': '全部',
-    'tech': '科技酷玩',
-    'home': '家居厨房',
-    'apparel': '服饰配件',
-    'gaming': '娱乐游戏',
-    'outdoor': '户外生活',
-    'food': '美食饮品',
-    'vehicles': '载具交通',
-    'pet': '宠物用品',
-    'office': '办公装备',
-    'kids': '儿童礼物',
-    'novelty': '新奇创意',
-    'adult': '成人派对'
+    'general': 'All',
+    'tech': 'Tech & Gadgets',
+    'home': 'Home & Kitchen',
+    'apparel': 'Apparel & Fashion',
+    'gaming': 'Gaming & Fun',
+    'outdoor': 'Lifestyle & Outdoor',
+    'food': 'Food & Drink',
+    'vehicles': 'Vehicles',
+    'pet': 'Gifts for Pets',
+    'office': 'Office Gear',
+    'kids': 'Gifts for Kids',
+    'novelty': 'Novelty & Gifts',
+    'adult': 'Adult & Nightlife'
 };
 
 export default function CategoryFilter({ categories, selectedCategory, onSelectCategory }) {
@@ -22,15 +22,15 @@ export default function CategoryFilter({ categories, selectedCategory, onSelectC
         <div className="category-filter">
             <div className="container">
                 <div className="filter-scroll">
-                    <button 
+                    <button
                         className={`filter-item ${selectedCategory === 'all' ? 'active' : ''}`}
                         onClick={() => onSelectCategory('all')}
                     >
-                        全部
+                        All
                     </button>
                     {categories.map(cat => (
                         cat !== 'general' && (
-                            <button 
+                            <button
                                 key={cat}
                                 className={`filter-item ${selectedCategory === cat ? 'active' : ''}`}
                                 onClick={() => onSelectCategory(cat)}
