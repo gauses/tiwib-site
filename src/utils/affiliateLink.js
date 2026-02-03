@@ -55,9 +55,22 @@ export function trackClick(productId, productTitle) {
 /**
  * Handle product link click
  * @param {object} product - Product object
- * @returns {string} Affiliate link
+ * @returns {string} Affiliate link or original product link
  */
 export function handleProductClick(product) {
     trackClick(product.id, product.title);
-    return generateAffiliateLink(product.amazonAsin, `product-${product.id}`);
+
+    // If it's an Amazon product, generate affiliate link
+    if (product.amazonAsin) {
+        return generateAffiliateLink(product.amazonAsin, `product-${product.id}`);
+    }
+
+    // Fallback to original product link if available
+    if (product.productLink) {
+        return product.productLink;
+    }
+
+    // Last resort: return #
+    console.warn(`No link available for product: ${product.title} (ID: ${product.id})`);
+    return '#';
 }
