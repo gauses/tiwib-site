@@ -8,7 +8,7 @@ export default function Hero({ searchQuery, onSearch, resultCount }) {
                     This Is Why <span className="gradient-text">I'm Broke</span>
                 </h1>
                 <p className="hero-subtitle">
-                    Discover the coolest, weirdest, and most innovative products. Your wallet won't thank you, but your life will! 💸
+                    The internet's greatest gallery of things you don't need, but absolutely want. 🎨
                 </p>
 
                 <div className="search-container">
