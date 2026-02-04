@@ -11,54 +11,53 @@
 }
 
 :root {
-  /* Color Palette - Premium Dark */
-  --primary: #FF6B35;
-  --primary-dark: #E55A2B;
-  --primary-light: #FF8C61;
-  --accent-blue: #00D1FF;
-  --accent-purple: #9D50BB;
+  /* Color Palette - Pinterest Inspired */
+  --primary: #E60023;
+  /* Pinterest Red */
+  --primary-dark: #AD081B;
+  --primary-light: #FF5252;
+  --accent-blue: #0073BB;
 
-  /* Background Colors - Deep Space Theme */
-  --bg-dark: #050505;
-  --bg-card: #0F0F0F;
-  --bg-card-hover: #161616;
-  --bg-glass: rgba(255, 255, 255, 0.03);
+  /* Background Colors - Clean White */
+  --bg-dark: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F8F8F8;
+  --bg-glass: rgba(255, 255, 255, 0.9);
 
   /* Text Colors */
-  --text-primary: #F5F5F7;
-  --text-secondary: #86868B;
-  --text-muted: #424245;
+  --text-primary: #111111;
+  --text-secondary: #767676;
+  --text-muted: #AFAFAF;
 
   /* Accent Colors */
-  --accent-yellow: #FFD60A;
-  --accent-pink: #FF375F;
-  --accent-green: #32D74B;
+  --accent-yellow: #F9CE42;
+  --accent-pink: #E60023;
+  --accent-green: #259124;
 
-  /* Spacing - Geometric Precision */
+  /* Spacing */
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
-  --spacing-lg: 2rem;
+  --spacing-lg: 2.5rem;
   --spacing-xl: 4rem;
   --spacing-2xl: 6rem;
-  --spacing-3xl: 8rem;
 
-  /* Border Radius */
+  /* Border Radius - Pinterest Roundness */
   --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-xl: 32px;
+  --radius-md: 16px;
+  --radius-lg: 32px;
+  --radius-xl: 48px;
 
-  /* Shadows - Layered Depth */
-  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.6);
-  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.7);
-  --shadow-glow: 0 0 25px rgba(255, 107, 53, 0.2);
+  /* Shadows - Soft Pinterest Shadows */
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 15px rgba(230, 0, 35, 0.15);
 
   /* Transitions */
-  --transition-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-normal: 400ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-slow: 700ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 150ms cubic-bezier(0.19, 1, 0.22, 1);
+  --transition-normal: 300ms cubic-bezier(0.19, 1, 0.22, 1);
+  --transition-slow: 500ms cubic-bezier(0.19, 1, 0.22, 1);
 
   /* Typography */
   --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -81,7 +80,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Typography */
 h1,
 h2,
 h3,
@@ -121,7 +119,6 @@ a:hover {
   color: var(--primary-light);
 }
 
-/* Container */
 .container {
   width: 100%;
   max-width: 1400px;
@@ -129,7 +126,6 @@ a:hover {
   padding: 0 var(--spacing-md);
 }
 
-/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -138,10 +134,9 @@ a:hover {
   font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: capitalize;
   border: none;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-xl);
   cursor: pointer;
   transition: all var(--transition-normal);
   text-decoration: none;
@@ -149,36 +144,30 @@ a:hover {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-  color: var(--text-primary);
-  box-shadow: var(--shadow-md);
+  background: var(--primary);
+  color: #FFFFFF;
+  box-shadow: var(--shadow-sm);
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg), var(--shadow-glow);
-  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+  background: var(--primary-dark);
+  transform: scale(1.02);
+  box-shadow: var(--shadow-md);
 }
 
-.btn-primary:active {
-  transform: translateY(0);
-}
-
-/* Card Styles */
 .card {
   background: var(--bg-card);
   border-radius: var(--radius-lg);
   overflow: hidden;
   transition: all var(--transition-normal);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .card:hover {
-  background: var(--bg-card-hover);
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
 }
 
-/* Loading Animation */
 @keyframes shimmer {
   0% {
     background-position: -1000px 0;
@@ -190,57 +179,34 @@ a:hover {
 }
 
 .skeleton {
-  background: linear-gradient(90deg,
-      var(--bg-card) 0%,
-      var(--bg-card-hover) 50%,
-      var(--bg-card) 100%);
+  background: linear-gradient(90deg, #F0F0F0 0%, #F8F8F8 50%, #F0F0F0 100%);
   background-size: 1000px 100%;
   animation: shimmer 2s infinite;
 }
 
-/* Scrollbar Styling */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-dark);
+  background: #FFFFFF;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--bg-card);
-  border-radius: 6px;
+  background: #E2E2E2;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--bg-card-hover);
+  background: #D1D1D1;
 }
 
-/* Utility Classes */
 .text-center {
   text-align: center;
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, var(--primary) 20%, var(--accent-pink) 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.mesh-gradient {
-  background-color: var(--bg-dark);
-  background-image:
-    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
-    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 0.1) 0, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 0.1) 0, transparent 50%);
-}
-
-.glass-card {
-  background: var(--bg-glass);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: var(--primary);
 }
 
 .mt-1 {
@@ -259,23 +225,6 @@ a:hover {
   margin-top: var(--spacing-xl);
 }
 
-.mb-1 {
-  margin-bottom: var(--spacing-sm);
-}
-
-.mb-2 {
-  margin-bottom: var(--spacing-md);
-}
-
-.mb-3 {
-  margin-bottom: var(--spacing-lg);
-}
-
-.mb-4 {
-  margin-bottom: var(--spacing-xl);
-}
-
-/* Responsive Design */
 @media (max-width: 768px) {
   :root {
     --spacing-xl: 2rem;

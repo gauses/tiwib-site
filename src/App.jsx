@@ -5,8 +5,6 @@ import CategoryFilter from './components/CategoryFilter';
 import ProductGrid from './components/ProductGrid';
 import Footer from './components/Footer';
 import Wishlist from './components/Wishlist';
-import FeaturedSection from './components/FeaturedSection';
-import StatsBar from './components/StatsBar';
 import productsData from './data/products.json';
 import './App.css';
 
@@ -57,10 +55,6 @@ function App() {
     });
   }, [allProducts, selectedCategory, searchQuery]);
 
-  const featuredProducts = useMemo(() => {
-    return allProducts.filter(p => p.featured).slice(0, 3);
-  }, [allProducts]);
-
   const jsonLd = useMemo(() => {
     return {
       "@context": "https://schema.org",
@@ -93,22 +87,12 @@ function App() {
         wishlistCount={wishlist.length}
         onToggleWishlist={toggleWishlist}
       />
-      <main className="main-content mesh-gradient">
+      <main className="main-content">
         <Hero
           searchQuery={searchQuery}
           onSearch={setSearchQuery}
           resultCount={filteredProducts.length}
         />
-
-        <StatsBar />
-
-        {!searchQuery && selectedCategory === 'all' && (
-          <FeaturedSection
-            products={featuredProducts}
-            wishlist={wishlist}
-            onToggleSave={toggleSave}
-          />
-        )}
 
         <CategoryFilter
           categories={categories}
