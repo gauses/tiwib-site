@@ -2,9 +2,10 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid #f0f0f0;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     transition: all var(--transition-normal);
 }
 
@@ -24,6 +25,11 @@
     gap: var(--spacing-sm);
     cursor: pointer;
     text-decoration: none;
+    transition: transform var(--transition-fast);
+}
+
+.logo:hover {
+    transform: scale(1.02);
 }
 
 .logo-icon {
@@ -52,14 +58,30 @@
     color: var(--text-secondary);
     text-decoration: none;
     transition: color var(--transition-fast);
+    position: relative;
 }
 
 .nav-link:hover {
     color: var(--text-primary);
 }
 
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: width var(--transition-normal);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
 .wishlist-toggle {
-    background: #efefef;
+    background: #f0f0f0;
     border: none;
     color: #111;
     padding: 8px 16px;
@@ -75,8 +97,8 @@
 }
 
 .wishlist-toggle:hover {
-    background: #e2e2e2;
-    transform: scale(1.02);
+    background: #e5e5e5;
+    transform: scale(1.05);
 }
 
 .wishlist-icon {

@@ -58,11 +58,11 @@ function ProductCard({ product, isSaved, onToggleSave }) {
                 <div className="product-footer">
                     <span className="product-price">{product.price}</span>
                     <button
-                        className="btn btn-primary product-cta"
+                        className="view-button"
                         tabIndex="-1"
                         aria-hidden="true"
                     >
-                        Check It Out →
+                        Check It Out
                     </button>
                 </div>
             </div>
