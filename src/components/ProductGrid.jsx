@@ -2,15 +2,15 @@ import { useState, useEffect } from 'react';
 import ProductCard from './ProductCard';
 import './ProductGrid.css';
 
-function ProductGrid({ products }) {
+function ProductGrid({ products, wishlist, onToggleSave }) {
     const [visibleProducts, setVisibleProducts] = useState([]);
     const [page, setPage] = useState(1);
     const PRODUCTS_PER_PAGE = 12;
 
     useEffect(() => {
         // Load initial products
-        setVisibleProducts(products.slice(0, PRODUCTS_PER_PAGE));
-    }, [products]);
+        setVisibleProducts(products.slice(0, page * PRODUCTS_PER_PAGE));
+    }, [products, page]);
 
     useEffect(() => {
         // Infinite scroll handler
@@ -30,21 +30,31 @@ function ProductGrid({ products }) {
     }, [page, products]);
 
     const loadMore = () => {
-        const nextPage = page + 1;
-        const startIndex = 0;
-        const endIndex = nextPage * PRODUCTS_PER_PAGE;
-
-        if (endIndex <= products.length) {
-            setVisibleProducts(products.slice(startIndex, endIndex));
-            setPage(nextPage);
+        if (visibleProducts.length < products.length) {
+            setPage(prev => prev + 1);
         }
     };
+
+    if (products.length === 0) {
+        return (
+            <div className="no-products">
+                <div className="no-products-icon">🔍</div>
+                <h3>No products found</h3>
+                <p>Try adjusting your search or filters to find what you're looking for.</p>
+            </div>
+        );
+    }
 
     return (
         <div className="product-grid-container">
             <div className="product-grid">
                 {visibleProducts.map((product) => (
-                    <ProductCard key={product.id} product={product} />
+                    <ProductCard
+                        key={product.id}
+                        product={product}
+                        isSaved={wishlist.some(item => item.id === product.id)}
+                        onToggleSave={() => onToggleSave(product)}
+                    />
                 ))}
             </div>
 

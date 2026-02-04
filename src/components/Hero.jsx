@@ -1,6 +1,6 @@
 import './Hero.css';
 
-export default function Hero() {
+export default function Hero({ searchQuery, onSearch, resultCount }) {
     return (
         <div className="hero">
             <div className="hero-content">
@@ -10,6 +10,29 @@ export default function Hero() {
                 <p className="hero-subtitle">
                     Discover the coolest, weirdest, and most innovative products. Your wallet won't thank you, but your life will! 💸
                 </p>
+
+                <div className="search-container">
+                    <div className="search-bar">
+                        <span className="search-icon">🔍</span>
+                        <input
+                            type="text"
+                            placeholder="Search for weird stuff..."
+                            value={searchQuery}
+                            onChange={(e) => onSearch(e.target.value)}
+                            className="search-input"
+                        />
+                        {searchQuery && (
+                            <button className="search-clear" onClick={() => onSearch('')}>
+                                ✕
+                            </button>
+                        )}
+                    </div>
+                    {searchQuery && (
+                        <div className="search-stats">
+                            Found {resultCount} amazing {resultCount === 1 ? 'item' : 'items'}
+                        </div>
+                    )}
+                </div>
             </div>
 
             {/* Floating emojis */}

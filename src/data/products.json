@@ -33,6 +33,28 @@
     "price": ""
   },
   {
+    "id": "8f4a5cbb",
+    "title": "Literal Sh*tshow Delivered Daily",
+    "tagline": "Tired of your neighbor's prize-winning roses? Need a passive-aggressive way to tell your landlord what you *really* think of the plumbing? Our Elephant Sh*t Delivery Service is here for you. We'll discreetly deposit ethically-sourced (probably) dung right on their doorstep. Because sometimes, a strongly-worded letter just isn't enough... and because you're already broke from avocado toast anyway, so what's another $15 for pure spite?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/elephant-shit-delivery-service_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 9.0,
+    "featured": true,
+    "price": "$14.95"
+  },
+  {
+    "id": "afb21164",
+    "title": "Broke? Buy Lewis' Go-Kart",
+    "tagline": "Twenty-one MILLION for a McLaren signed by Hamilton? Finally, a way to flex on your landlord after they threaten eviction. Imagine: you, casually explaining to the repo man that *technically* it's an investment, right before he hauls it to Dubai. Because clearly, the only thing separating you from Formula 1 stardom is… crippling debt. ",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/lewis-hamilton-signed-1994-mclaren-f1_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 9.0,
+    "featured": true,
+    "price": "$21,000,000.00"
+  },
+  {
     "id": "b1cd9211",
     "title": "Therapist Said FIRE is the Answer?",
     "tagline": "So, your neighbor's cat keeps using your prize-winning petunias as a litterbox? Or maybe you just need to dramatically light birthday candles from six feet away? This compact flamethrower is *exactly* the responsible purchase you need. Because nothing says 'I've got my life together' like incinerating shrubbery. Just remember, arson is only a crime if you get caught… and this thing doesn’t come with an alibi.",
@@ -53,6 +75,61 @@
     "wowFactor": 9.0,
     "featured": true,
     "price": ""
+  },
+  {
+    "id": "d23fc272",
+    "title": "Bones Chandelier: Light My Doom!",
+    "tagline": "Finally, a chandelier that screams, \"I peaked in high school and now collect antique medical oddities!\" Perfect for illuminating your taxidermied pet collection while you plot your ex's demise. Because nothing says 'I'm stable' like spending $15,000 on something that will DEFINITELY trigger a haunting. Enjoy explaining *this* purchase to your therapist. (We're not responsible for poltergeists.)",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/human-bones-chandelier_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 9.0,
+    "featured": true,
+    "price": "$15,500.00"
+  },
+  {
+    "id": "1204ae12",
+    "title": "TriFold? More Like Tri-Fool!",
+    "tagline": "Because one screen just isn't enough to display all the reasons your life is a mess. Need to juggle three Candy Crush accounts simultaneously while simultaneously doom-scrolling and ignoring your family? This $2,500 foldable monstrosity is for you. Just remember, therapy is cheaper... probably.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/samsung-galaxy-z-trifold-smartphone_400x333.jpg",
+    "amazonAsin": null,
+    "category": "tech",
+    "wowFactor": 8.0,
+    "featured": false,
+    "price": "$2,500.00"
+  },
+  {
+    "id": "241887f8",
+    "title": "Divorce? Buy a Tank!",
+    "tagline": "So, your therapist suggested 'healthy coping mechanisms' after the split? We suggest *this*. Picture it: your ex's Prius, flattened. Their prize-winning roses, mulch. Their smug sense of superiority? Gone. All thanks to your totally-not-compensating-for-anything, Ripsaw 'Luxury' Tank. Because who needs emotional maturity when you have *armor*?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/extreme-off-road-tank_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 8.0,
+    "featured": false,
+    "price": ""
+  },
+  {
+    "id": "4222e9b1",
+    "title": "Divorce? Meet Doomsday Vehicle.",
+    "tagline": "So, your therapist suggested 'retail therapy' after the judge awarded your spouse everything but your spleen? Excellent. Blow the remains of your kids' college fund on this 6x6 monstrosity. It's perfect for outrunning repo men, plowing through zombie hordes (or just traffic), and generally screaming 'I'm having a midlife crisis, and I'm taking everyone down with me!' Because nothing says 'stable' like a $235,000 escape pod.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/2024-apocalypse-juggernaut-6x6_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 8.0,
+    "featured": false,
+    "price": "$235,000.00"
+  },
+  {
+    "id": "9d1f41d1",
+    "title": "Future Landlord Starter Pack",
+    "tagline": "Is your spawn destined for TikTok fame before they can even spell 'algorithm'? Of course, they are. Forget college funds; invest in clout. This kit ensures your toddler screams into the void with *style.* Because nothing says 'responsible parenting' like monetizing your child's existence. Just remember to hide the evidence when they inevitably become a disillusioned adult.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/tik-tot-baby-influencer-starter-kit_400x333.jpg",
+    "amazonAsin": "B0DHDD7SH1",
+    "category": "kids",
+    "wowFactor": 8.0,
+    "featured": false,
+    "price": "$7.49"
   },
   {
     "id": "9e6e1ad9",
@@ -77,6 +154,39 @@
     "price": "$45,000.00"
   },
   {
+    "id": "b3e3c828",
+    "title": "Squid Pro Quo, Anyone?",
+    "tagline": "Finally, a hotel designed specifically for the existential dread of your pet octopus. Because what says 'I have too much money and zero self-awareness' like dropping $575 so Mr. Tentacles can contemplate the futility of existence in a tiny acrylic condo? Just try explaining *this* purchase to your landlord when you're late on rent. Again.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/octopussy-hotel_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 8.0,
+    "featured": false,
+    "price": "$575.00"
+  },
+  {
+    "id": "cb3c7016",
+    "title": "Dick-Shaped Plant Problem, Solved!",
+    "tagline": "Finally, a way to combine your crippling plant obsession with your equally crippling obsession with… well, you see the picture. Imagine the look on Brenda's face when she comes over for book club and sees this hairy dong staring back at her. Now you can explain your questionable life choices to the police after she inevitably calls them. You're welcome... I guess.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/chia-penis_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 8.0,
+    "featured": false,
+    "price": "$39.99"
+  },
+  {
+    "id": "d3a057e0",
+    "title": "Baby's First Electric Bill",
+    "tagline": "Finally, a pacifier designed for the child you *secretly* suspect is trying to off themselves via electrocution. Is your toddler constantly making a beeline for the outlets? Instead of, you know, parenting, just plug this bad boy in. It's cheaper than therapy... for you. The kid's probably doomed anyway.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/nooklet-outlet-safety-plug-for-babies_400x333.jpg",
+    "amazonAsin": "B07W4DYSYW",
+    "category": "kids",
+    "wowFactor": 8.0,
+    "featured": false,
+    "price": "$7.99"
+  },
+  {
     "id": "0068a3fb",
     "title": "Divorce Papers, Optional Mustang",
     "tagline": "Finally, a solution for those 'too much baggage' exes. Sure, you could just change your number... or you could buy a goddamn WWII fighter plane. Imagine the look on her face when you 'accidentally' buzz her yoga retreat. Probably best to learn how to fly this thing *before* your restraining order hearing, though. Enjoy being broke, flyboy.",
@@ -86,6 +196,17 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$2,145,000.00"
+  },
+  {
+    "id": "011aaff3",
+    "title": "Debt? Meet Tiny Motorcycle.",
+    "tagline": "So, your mid-life crisis is screaming for a Harley, but your bank account is whispering, 'Ramen again?' Enter the CFMOTO Papio SS. Perfect for terrorizing your HOA, outrunning squirrels, or just generally regretting every financial decision you've ever made. Because who needs groceries when you can have a miniature motorcycle built for existential dread?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/cfmoto-papio-ss-minibike_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$3,299.00"
   },
   {
     "id": "02c7ec83",
@@ -99,6 +220,17 @@
     "price": "$12.99"
   },
   {
+    "id": "1227d302",
+    "title": "Paranoid? Broke? SAME!",
+    "tagline": "Finally, a place to hide from your crippling student loan debt! This Concrete Fortress Safe House is perfect for when the repo man comes knocking... or when you simply can't face your family during the holidays. Sure, you could pay rent, but wouldn't you rather live in a bunker fueled by existential dread? We thought so. Enjoy your new, concrete coffin. You deserve it.",
+    "image": "https://cdn.thisiswhyimbroke.com/images/concrete-fortress-safe-house.gif",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
     "id": "132fe504",
     "title": "Purr-fectly Pointless Bread Clips",
     "tagline": "Finally, a way to ensure your artisanal sourdough is sealed with the undeniable charm of a feline posterior. Because what's the point of freshly baked goods if they don't remind you of where your cat's been sitting? Go ahead, blow eight bucks on this. You weren't going to pay your electric bill anyway.",
@@ -108,6 +240,28 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$8.77"
+  },
+  {
+    "id": "13a6d0bb",
+    "title": "Divorce? Nah, Lotus.",
+    "tagline": "So, your mid-life crisis involves a Lotus Esprit Restomod? Fantastic. Because therapy and a sensible financial plan were *clearly* overrated. Now you can relive your Bond fantasies while simultaneously making your accountant weep. Just picture it: you, this car, and the crushing weight of knowing you'll be eating ramen for the next five years. Totally worth it.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/encor-lotus-esprit-series-1-restomod_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$572,500.00"
+  },
+  {
+    "id": "1405697e",
+    "title": "Roadkill Rug: Light-Up Edition",
+    "tagline": "Finally, the perfect way to honor Mittens after she chased that rogue Roomba into traffic. This light-up fried cat rug will not only cover that stain on your floor, but also serve as a beacon of questionable taste. Because who needs therapy when you can have illuminated feline roadkill welcoming guests into your home? Your therapist definitely won't judge... much.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/christmas-vacation-light-up-fried-cat-rug_400x333.jpg",
+    "amazonAsin": "B097NLLLTW",
+    "category": "home",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$29.95"
   },
   {
     "id": "1687ecb0",
@@ -130,6 +284,50 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$3,000.00"
+  },
+  {
+    "id": "2461d802",
+    "title": "Oy Vey, Merry Christmas!",
+    "tagline": "Finally, a way to confuse both your Bubbe and Santa Claus! Imagine: You're at a Hanukkah-Christmas fusion party (because why not?), and you need to show your *holiday spirit*. Slap this on your head and watch the awkward silence descend faster than your grandma's guilt trips. For only $20, you too can achieve peak interfaith discomfort. Don't worry, you'll still be broke by New Year's.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/christmas-themed-yamaka_400x333.jpg",
+    "amazonAsin": null,
+    "category": "apparel",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$19.95"
+  },
+  {
+    "id": "2814a931",
+    "title": "Divorce? Buy This Cabin.",
+    "tagline": "So, your spouse finally left you. Congratulations! Now you can wallow in style in this glorified shed. Perfect for pretending you're Thoreau, but with slightly better plumbing (probably). Spend your days contemplating your poor life choices and questionable taste in furniture. At least the bears will have somewhere to eat you *after* you run out of ramen.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-tiny-cabin_400x333.jpg",
+    "amazonAsin": null,
+    "category": "general",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$204.00"
+  },
+  {
+    "id": "2d83a45d",
+    "title": "Santa's Got Back (Problems)",
+    "tagline": "Is your holiday cheer tragically lacking in rhythmic pelvic thrusts? This Twerking Santa ensures your Christmas is... memorable. Perfect for passive-aggressively annoying your relatives or distracting the kids while you hide all the good presents for yourself. Because nothing says 'Merry Christmas' like a battery-powered Kris Kringle shaking his jelly belly.",
+    "image": "https://cdn.thisiswhyimbroke.com/images/twerking-santa.gif",
+    "amazonAsin": "B07HF1Q1PL",
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$26.39"
+  },
+  {
+    "id": "2dda0439",
+    "title": "Finally, A Bed For Humans!",
+    "tagline": "So, your therapist suggested 'inner child work,' huh? Well, ditch the coloring books and embrace your true form: a giant, emotionally stunted puppy. Finally, a bed big enough for you to wallow in while contemplating all your life choices that led you here. At $300, you can't afford rent *or* therapy now! Enjoy!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/human-sized-dog-bed_400x333.jpg",
+    "amazonAsin": "B0BWSJ426S",
+    "category": "pet",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$299.00"
   },
   {
     "id": "2ea5e121",
@@ -176,6 +374,17 @@
     "price": "$3,000.00"
   },
   {
+    "id": "3de1d239",
+    "title": "Divorce Papers Incoming: Sword Edition",
+    "tagline": "Finally, a way to LARP away your crippling student debt! Impress your therapist (and absolutely no one else) with this hunk of sharpened metal. Perfect for cosplaying Cloud while microwaving ramen in your mom's basement. Side effects include: spontaneous virginity, restraining orders, and the crushing realization that you peaked in high school. Go ahead, buy it. You weren't saving for retirement anyway.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/final-fantasy-buster-sword_400x333.jpg",
+    "amazonAsin": null,
+    "category": "gaming",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$450.00"
+  },
+  {
     "id": "40aa484b",
     "title": "LARPing Your Way To Debt!",
     "tagline": "So, you've decided to finally embrace your destiny as a medieval doom-bringer? Excellent. Now you can dramatically lose your apartment while battling imaginary demons in the park. For the low, low price of $1600, you can achieve peak unemployment and questionable hygiene. Because nothing says 'I'm responsible' like draining your savings on a costume that will probably chafe.",
@@ -196,6 +405,17 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$19.99"
+  },
+  {
+    "id": "42ec67a5",
+    "title": "Evict Yourself For This Bugatti",
+    "tagline": "Finally embracing poverty? Good, you're ready for the *last* Bugatti Bolide. Imagine: you're late on rent (again), but you pull up to the eviction notice in *this*. Your landlord? Speechless. Your bank account? Weeping. Just remember, ramen noodles taste better when you're eating them in a multi-million dollar car. Priorities, people. Priorities.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-final-bugatti-bolide_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
   },
   {
     "id": "4400b766",
@@ -231,6 +451,17 @@
     "price": "$3,700.00"
   },
   {
+    "id": "48ae9165",
+    "title": "Ho-Ho-Hold My Ammunition",
+    "tagline": "Because regular Christmas stockings just don't scream \"prepared for the inevitable yuletide zombie apocalypse.\" Imagine waking up Christmas morning, only to find Santa swapped your presents for a tactical advantage. Finally, a place to stash your candy canes *and* extra magazines! Just what you needed. (Probably.) Now you can be broke *and* combat-ready. Merry Crisis!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/tactical-christmas-stocking_400x333.jpg",
+    "amazonAsin": "B09B3PSS7J",
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$14.99"
+  },
+  {
     "id": "49cf35cf",
     "title": "Divorce? Get a Snowdog!",
     "tagline": "So, you've finally snapped and decided to abandon your family ski trip halfway up the mountain. Good for you! But how will you drag your shame (and your gear) back down? Enter the SnowdogX. Because nothing says 'I regret everything' like dropping seven grand on a personal snow-towing machine instead of, you know, therapy. Enjoy your newfound freedom...and crippling debt!",
@@ -240,6 +471,17 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$7,499.00"
+  },
+  {
+    "id": "53120c16",
+    "title": "Divorce Papers, Neat, or Siari?",
+    "tagline": "Ah, the Ritz-Carlton Reserve Siari. Because when you're already neck-deep in debt and emotionally unavailable, what's another $878? Perfect for impressing your mistress while simultaneously avoiding eye contact with your children. Just don't try to drink away the guilt; you'll need to sell a kidney to afford a second bottle.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/ritz-carlton-reserve-siari_400x333.jpg",
+    "amazonAsin": null,
+    "category": "general",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$878.00"
   },
   {
     "id": "53cbfc81",
@@ -253,6 +495,39 @@
     "price": "$900.00"
   },
   {
+    "id": "56c7f93d",
+    "title": "Divorce Magnet: Find Your Ex!",
+    "tagline": "Finally! A way to dredge up all those feelings you swore you buried. Perfect for that 'chance encounter' you've been planning outside their new yoga studio. Rated to pull 1000lbs, so it *should* haul their compact car into the nearest lake. (We are not responsible for vehicular damage, emotional distress, or restraining orders. You're already broke, what's one more lawsuit?)",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/1000lb-pull-force-magnet_400x333.jpg",
+    "amazonAsin": "B0CC6D8FRZ",
+    "category": "general",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$72.99"
+  },
+  {
+    "id": "5a8442a8",
+    "title": "Divorce Papers Delivery System",
+    "tagline": "Finally, a drone powerful enough to deliver your crippling debt directly to your doorstep. Or, I guess, ferry emergency supplies during the apocalypse. But let's be real, you're gonna use this $12,500 behemoth to avoid eye contact with your ex while serving them divorce papers from the sky. Because therapy is expensive, but apparently this isn't?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/dji-flycart-100-drone_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$12,500.00"
+  },
+  {
+    "id": "6042bd6f",
+    "title": "Science... or Snake Oil?",
+    "tagline": "Because regular water just isn't pretentious enough. Finally, a way to spend $170 to convince yourself you're hydrating 'smarter.' Imagine: you're at the gym, flexing in the mirror, and then you pull *this* out of your bag. Everyone will know you're either rich or deeply insecure. Probably both. Enjoy your marginally more hydrogen-y water, you beautiful idiot.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/hydrogen-water-bottle-generator_400x333.jpg",
+    "amazonAsin": "B0BYGQWRJN",
+    "category": "tech",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$169.99"
+  },
+  {
     "id": "64c8774f",
     "title": "Passive-Aggression: The Device",
     "tagline": "Finally, a solution for when politely worded notes and broom-handle ceiling jabs just aren't cutting it. This... *thing* lets you automate your noise complaints. Imagine: You're peacefully seething, and this mechanical menace is rhythmically annoying the oblivious upstairs dwellers. Because confronting people is *so* last century. Just remember, they'll probably buy one too. Enjoy the escalating war, broke-ass.",
@@ -264,6 +539,17 @@
     "price": "$169.00"
   },
   {
+    "id": "677827ef",
+    "title": "Road Rage Apocalypse Buggy",
+    "tagline": "So, your therapist finally convinced you to embrace your inner child? Great, now you can terrorize suburban cul-de-sacs in this lunar-lander-meets-monster-truck fever dream. Perfect for escaping the impending societal collapse or just aggressively retrieving your kid's soccer ball from the neighbor's yard. Just remember, therapy doesn't cover vehicular manslaughter. We're all doomed, anyway.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/hyundai-crater-concept-suv_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
     "id": "67a87c83",
     "title": "Divorce Papers Included (Yacht)",
     "tagline": "Finally, a boat big enough to house all your regrets! Imagine: You're on this obscenely large yacht, sipping champagne, while your ex is stuck with the dinghy. Perfect for when you need to dramatically sail away from all your responsibilities... and your crippling student loan debt. Because let's be honest, if you're buying this, you're definitely declaring bankruptcy next year.",
@@ -273,6 +559,28 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": ""
+  },
+  {
+    "id": "692dc1c8",
+    "title": "Fancy Bus, Empty Wallet",
+    "tagline": "Finally, a way to simultaneously feel superior to pedestrians AND motion sick! For the low, low price of $209, you can eat lukewarm scallops while dodging rogue pigeons on a double-decker bus. Perfect for the trust fund baby who's already blown their inheritance on NFTs and needs a new way to broadcast their impending doom to the world. Just remember to update your LinkedIn profile – 'Professional Bus Gourmet' is bound to impress.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/gourmet-dinner-on-a-glass-roof-bus-nyc_400x333.jpg",
+    "amazonAsin": null,
+    "category": "food",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$209.00"
+  },
+  {
+    "id": "6be40049",
+    "title": "Oral Sex IOU: Gold Edition",
+    "tagline": "Finally, a tangible way to passive-aggressively remind your partner of their marital obligations. Hand them this golden ticket, and watch the mixture of guilt and begrudging obligation bloom on their face. Perfect for Valentine's Day, anniversaries, or any Tuesday when you're feeling particularly entitled. Pro tip: redeemable for disappointment. $1.99 well spent, probably.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-golden-blowjob-ticket_400x333.jpg",
+    "amazonAsin": null,
+    "category": "adult",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$1.99"
   },
   {
     "id": "7346084c",
@@ -292,6 +600,17 @@
     "image": "https://cdn.thisiswhyimbroke.com/thumb/the-coca-cola-recipe_400x333.jpg",
     "amazonAsin": null,
     "category": "food",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
+    "id": "7bf9812c",
+    "title": "Breathe Better, Broke Later",
+    "tagline": "Is the air outside just *too* pedestrian for your refined lungs? Introducing the Regenerative Breathing Apparatus! Perfect for the trust fund kid cosplaying as an astronaut in their mom's basement. Now you can experience the thrill of 'clean' air while simultaneously ensuring you can't afford actual food. Because who needs sustenance when you have *pristine* oxygen and crippling debt?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/aquabreather-regenerative-breathing-apparatus_400x333.jpg",
+    "amazonAsin": null,
+    "category": "tech",
     "wowFactor": 7.0,
     "featured": false,
     "price": ""
@@ -341,6 +660,39 @@
     "price": "$419.00"
   },
   {
+    "id": "87d51ccd",
+    "title": "Divorce Your Landlord, Buy Stars",
+    "tagline": "Because who needs a down payment when you can project the cosmos onto your crumbling apartment walls? Finally, you can drunkenly explain constellations to your cat while contemplating your life choices. Sure, you'll be eating ramen for the next decade, but at least you'll be eating it *under the stars*. Actual financial stability? Overrated.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/megastar-class-home-planetarium_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$19,000.00"
+  },
+  {
+    "id": "88746007",
+    "title": "Icelandic Hotel? I'm Already Broke!",
+    "tagline": "So, your crypto tanked, your spouse left you, and you need to wallow in volcanic ash? Look no further! This Icelandic hotel offers the perfect backdrop for contemplating your life choices. Pretend you're a Bond villain mourning a failed world domination scheme while simultaneously freezing your nether regions. Because NOTHING says 'self-care' like existential dread at $210 a night.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/black-sand-icelandic-hotel_400x333.jpg",
+    "amazonAsin": null,
+    "category": "general",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$210.00"
+  },
+  {
+    "id": "8ad7fae2",
+    "title": "Divorce In A Can (RV)",
+    "tagline": "So, you wanna be homeless, but *glamping* homeless? This expandable RV is perfect for alienating your spouse and driving aimlessly until you run out of gas money (and hope). Just picture it: arguing over counter space while hurtling down the highway at a cool 50mph. Because, let's be honest, if you're buying this, rational decisions are already a distant memory.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/shiver-x-expandable-6x6-dakar-rv_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
     "id": "8c890f8d",
     "title": "Divorce Papers Included. Maybe.",
     "tagline": "So, your partner *still* thinks that tapestry of wolves howling at the moon is 'tasteful?' Slap this LG Wallpaper TV over it and claim it's a high-tech art installation. Watch their face melt as you casually drop the price tag. Just be prepared to sleep on the couch...which, admittedly, will look amazing with this mounted above it.",
@@ -361,6 +713,17 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$56.64"
+  },
+  {
+    "id": "992b2f99",
+    "title": "Pizza Axe? For When?",
+    "tagline": "Finally, a solution for when your inner Viking is screaming, but dinner is pizza. Impress your Tinder date by splitting that pepperoni pie with the fury of a thousand suns. Sure, you could use a pizza cutter like a normal person, but then how would they know you're teetering on the edge of financial ruin and a full-blown personality disorder? Buy it. You deserve to be broke.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/hand-forged-pizza-axe_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$100.00"
   },
   {
     "id": "9c15358f",
@@ -385,6 +748,61 @@
     "price": "$40,000.00"
   },
   {
+    "id": "a0d85679",
+    "title": "Goodbye, Retirement Fund. Hello, Regret.",
+    "tagline": "So, your mid-life crisis needs a turbo boost? Perfect. This hand-crafted, obscenely-priced speedster will let you relive your glory days (which probably involved questionable hair and even more questionable decisions). Just picture it: wind in your thinning hair, alimony payments bouncing, and the faint scent of impending bankruptcy. Enjoy!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/iconic-sp40-restomod-speedster_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
+    "id": "a725e7c8",
+    "title": "Pegging Problems? We Can Help.",
+    "tagline": "So, your therapist finally staged an intervention. Your partner has threatened to move back in with their mother. And your collection of strap-ons is now officially blocking the doorway. Clearly, you need *something*. Will this book magically solve your… extracurricular enthusiasm? Unlikely. But hey, at least you can feel slightly less guilty while draining your bank account on yet another questionable purchase. We're enabling, not helping. You're welcome.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/how-to-manage-your-pegging-addiction_400x333.jpg",
+    "amazonAsin": null,
+    "category": "adult",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$16.11"
+  },
+  {
+    "id": "a7e3f89b",
+    "title": "Divorce? Buy a Unimog!",
+    "tagline": "So, your spouse finally left you? Excellent! Now you have the perfect excuse to blow the settlement on this ridiculously overpriced Mercedes-Benz Unimog. Who needs therapy when you can crush Prius' under your six-wheeled monument to overcompensation? Sure, you'll be eating ramen for the next decade, but at least you'll arrive at the soup kitchen in *style.*",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/mercedes-benz-80th-anniversary-unimog_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
+    "id": "a9a3cb9c",
+    "title": "Festive Fecal Fun!",
+    "tagline": "Finally, an Elf on the Shelf that reflects my actual holiday spirit. Forget leaving presents; this little guy leaves... well, you get the picture. Perfect for passive-aggressively hinting to your family that their cooking is *digestively challenging*. Because nothing says 'Merry Christmas' like a tiny plastic elf dropping a deuce. You're welcome. Now go blow your grocery budget on this.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-pooping-elf_400x333.jpg",
+    "amazonAsin": "B0987FM6GB",
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$14.00"
+  },
+  {
+    "id": "b09e9cd0",
+    "title": "Oink! My Pig Needs Mansions!",
+    "tagline": "Because your pot-bellied pig, Penelope, deserves better than a cardboard box. Watch her strut through the miniature Tuscan countryside after you inevitably blow your kid's college fund on this. You know, the kid you planned to name 'Bacon' as a joke? Suddenly, Penelope's digs seem less insane and more like a coping mechanism. This is why I'm broke.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/le-porciglia-villa_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$950.00"
+  },
+  {
     "id": "b2cf42c4",
     "title": "Tiny You, Huge Regret.",
     "tagline": "Finally, a way to immortalize your crippling student loan debt! For a mere $3,500, you can get a miniature version of yourself, perfect for staging elaborate reenactments of your therapy sessions. Think of the possibilities! Is it practical? Absolutely not. Will you weep silently as you realize you could have used this money for, like, *food*? Guaranteed.",
@@ -407,6 +825,17 @@
     "price": "$29,900.00"
   },
   {
+    "id": "b7d5530f",
+    "title": "Defy Physics, Destroy Wallet",
+    "tagline": "Finally, a way to prove to your landlord that you're *actually* living in the future while simultaneously failing to pay rent. This anti-gravity water fountain lamp will hypnotize your cats, confuse your dates, and ultimately serve as the centerpiece of your impending eviction. Because who needs food when you have *perpetual motion*... or at least, the *illusion* of it?",
+    "image": "https://cdn.thisiswhyimbroke.com/images/hydra-lamp-anti-gravity-fountain-lamp.gif",
+    "amazonAsin": "B07R2FNT4L",
+    "category": "home",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$45.00"
+  },
+  {
     "id": "b826ca8b",
     "title": "Divorce? Buy. This. Tank.",
     "tagline": "So, you've finally snapped. The HOA sent you one too many passive-aggressive lawn care notices? The ex is demanding *more* alimony? Solution: the Rezvani Tank. Because when you're this close to societal collapse, nothing says 'I've given up' like driving a small house down Main Street. Just remember to factor in the cost of therapy...and bail.",
@@ -418,6 +847,39 @@
     "price": "$175,000.00"
   },
   {
+    "id": "b8993b83",
+    "title": "Ho-Ho-Hold My Lightsaber!",
+    "tagline": "Finally, a way to settle those awkward Christmas dinner arguments. Uncle Jerry still ranting about politics? *Whack!* Now he's just unconscious and covered in festive red and green plasma. Because nothing says 'peace on Earth' like a $450 glowing stick that'll leave you eating ramen for the next three months. Merry freakin' Christmas to your empty bank account.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/santa-saber_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$450.00"
+  },
+  {
+    "id": "bee18b9e",
+    "title": "Screaming Your Way To Debt",
+    "tagline": "Finally, a way to terrify the neighbors *and* simultaneously make them question your sanity. Imagine: You're cornered by a squirrel in your own backyard. Instead of running like a normal person, you unleash the unholy shriek of a thousand Aztec souls directly into its beady little eyes. Is it effective? Probably not. Will you feel ridiculous? Absolutely. But hey, at least you're broke *and* culturally insensitive.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-screaming-aztec-death-whistle_400x333.jpg",
+    "amazonAsin": "B0FQWT6PD8",
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$17.99"
+  },
+  {
+    "id": "c00a7115",
+    "title": "Choo Choo, Goes Your Savings!",
+    "tagline": "Finally, a train set for the obscenely wealthy shut-in who peaked in model railroading at age 47. Imagine: You, in your silk pajamas, orchestrating a tiny, gilded apocalypse on a miniature track while muttering about the decline of Western civilization. Just remember, each meticulously crafted, historically accurate carriage costs more than your actual car. Enjoy bankruptcy!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/orient-express-la-dolce-vita-trains_400x333.jpg",
+    "amazonAsin": null,
+    "category": "general",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$2,300.00"
+  },
+  {
     "id": "c4e49bbd",
     "title": "Solar Panels Ruin Your Truck!",
     "tagline": "Finally, a way to look even MORE ridiculous while tailgating! Slap these bad boys on your truck bed, and you'll be the envy of every redneck who's ALSO trying to offset their carbon footprint (while simultaneously chugging a twelve-pack). Because nothing says \"eco-conscious\" like a pickup truck with enough solar panels to power a small village. Prepare to be broke AND mocked.",
@@ -427,6 +889,17 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$1,999.00"
+  },
+  {
+    "id": "cb7c1134",
+    "title": "Divorce Your Lawn Guy",
+    "tagline": "Finally, a solution for people who hate shoveling snow but also secretly enjoy the misery of owning incredibly expensive, unnecessary gadgets. Imagine: You're inside, sipping hot cocoa, while your $5,000 snow-bot battles a blizzard like a tiny, plastic Don Quixote. Just try not to think about the fact that you could have hired a neighborhood kid for, like, twenty bucks. Now accepting applications for a second job!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/yarbo-snow-blower-s1_400x333.jpg",
+    "amazonAsin": "B0FJF9V1JC",
+    "category": "outdoor",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$4,999.00"
   },
   {
     "id": "cba5b436",
@@ -451,6 +924,17 @@
     "price": ""
   },
   {
+    "id": "cf3508c7",
+    "title": "Butthole Cookies. You're Welcome.",
+    "tagline": "Finally, a way to make your passive-aggressive baking *truly* unforgettable. Imagine showing up to book club with a plate of these. \"Oh, these? Just some… cat-shaped cookies.\" Let them figure out the rest. Perfect for ruining potlucks and cementing your reputation as the weird aunt. Because who needs therapy when you can traumatize your loved ones with feline-themed baked goods? Costs less than a co-pay, probably.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/cat-butt-cookie-cutter_400x333.jpg",
+    "amazonAsin": "B07TPCS68L",
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$7.99"
+  },
+  {
     "id": "cf9c27ef",
     "title": "Three Wheels to Bankruptcy!",
     "tagline": "So, your midlife crisis hit, but you're too eco-conscious for a gas-guzzling convertible. Enter: the electric trike of shame. Picture yourself, helmet hair flapping, desperately trying to outrun your alimony payments at a blistering 25mph. Yes, you could buy a sensible car, but where's the fun in fiscal responsibility? Just remember, ramen noodles pair well with crippling debt. ",
@@ -460,6 +944,17 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$13,500.00"
+  },
+  {
+    "id": "d0ac47cd",
+    "title": "Therapy is Expensive, Get Mugly.",
+    "tagline": "Is your therapist ghosting you? Is your cat tired of being your emotional support animal? Well, snag Rene TheMugly! This squishy… thing… is perfect for projecting all your unresolved childhood trauma onto. Squeeze its face when your boss yells at you. Throw it at the wall when your Tinder date flakes. Just remember, Rene can't file a restraining order (yet). And at $20 a pop, at least *something* in your life is cheaper than rent. You're welcome.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/rene-themugly-squishy-doll_400x333.jpg",
+    "amazonAsin": null,
+    "category": "kids",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$19.95"
   },
   {
     "id": "d8234d84",
@@ -473,12 +968,67 @@
     "price": "$14.99"
   },
   {
+    "id": "dd645a56",
+    "title": "Electric Lexus: WHY, THO?",
+    "tagline": "So, you've finally accepted that your mid-life crisis needs an eco-friendly twist? Congrats, you're still insufferable, just quieter now. This Lexus LFA Concept EV is for the guy who loudly complains about gas prices while simultaneously Venmo requesting his kids for avocado toast money. Go ahead, trade that roaring V10 for the gentle hum of your impending divorce. We're sure it'll solve *all* your problems. (Spoiler: it won't.)",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/lexus-lfa-concept-ev_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
     "id": "e0c03386",
     "title": "LEGOs: For Broke Adults",
     "tagline": "Finally, a way to blow your kid's college fund while simultaneously building a sentient robot that will judge your life choices. Imagine: you, unshowered, fueled by instant ramen, teaching your plastic overlord the complexities of pre-programmed movement. All while ignoring your actual child, who just wants you to build a damn spaceship. Enjoy your crippling debt and robot rebellion!",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/lego-smart-play-system_400x333.jpg",
     "amazonAsin": null,
     "category": "kids",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": ""
+  },
+  {
+    "id": "e24acced",
+    "title": "Escape Reality (And Rent)",
+    "tagline": "Is your therapist tired of hearing about your crippling existential dread? Perfect. Now you can pay *someone else* to lock you in a lightless, soundproof tank full of lukewarm salt water! Finally, a way to avoid eye contact with your landlord AND contemplate the infinite void, all for the low, low price of your sanity. Just don't blame us when you emerge a cult leader.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/float-in-a-sensory-deprivation-pod_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$60.00"
+  },
+  {
+    "id": "e2a21fb5",
+    "title": "Butt Burrito Blankets, Now?",
+    "tagline": "So, your insides are brewing a toxic waste cocktail that could clear a room? Instead of, you know, *addressing your diet*, slap one of these bad boys into your underwear. It's like a Brita filter for your backside. Your coworkers may thank you, but your therapist definitely won't when you reveal this is your solution.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/fart-gas-neutralizing-pads_400x333.jpg",
+    "amazonAsin": "B001KYVJSC",
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$12.99"
+  },
+  {
+    "id": "e3465366",
+    "title": "Fling Poo, End Friendships!",
+    "tagline": "Finally, a way to weaponize your dog's… contributions. Sure, therapy is cheaper, but can it launch a perfectly formed turd over the neighbor's fence? Didn't think so. Ideal for passive-aggressive landscaping or declaring war on squirrels. Side effects may include: social ostracization, a visit from animal control, and the crushing realization that this is how you're choosing to spend your precious time on this planet. You're welcome.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/poop-slingshot-toys_400x333.jpg",
+    "amazonAsin": "B0C9HVT6YG",
+    "category": "novelty",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$14.99"
+  },
+  {
+    "id": "e41ca3a4",
+    "title": "Vroom Vroom, I'm Bankrupt!",
+    "tagline": "So, your mid-life crisis involves torching your savings on a car that looks like it was designed by a sentient cheese grater? Fantastic. Imagine pulling up to your ex's wedding in this thing, only to realize you can't afford gas because you blew it all on the down payment. Enjoy the walk home, sucker. At least you'll look…futuristic doing it?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/genesis-magma-gt-concept_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
     "wowFactor": 7.0,
     "featured": false,
     "price": ""
@@ -506,6 +1056,17 @@
     "price": ""
   },
   {
+    "id": "edc09e8d",
+    "title": "Therapy? Nah, Punish Me!",
+    "tagline": "So, your sex life needs… something. Spice? Maybe some shame? Forget couples counseling; just gather your friends and play 'Punish Me, Daddy.' Because nothing says healthy relationship like letting your drunk acquaintances decide your bedroom fate. Probably cheaper than a divorce lawyer, definitely more scarring. Enjoy spiraling further into debt for this.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/punish-me-daddy-party-game_400x333.jpg",
+    "amazonAsin": "B09TYDQGB2",
+    "category": "adult",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$24.99"
+  },
+  {
     "id": "ee6543c5",
     "title": "Release the Kraken (of Debt)!",
     "tagline": "Is your crippling loneliness not quite... tentacular enough? Now you can finally achieve peak despair by cuddling this massive octopus plush. Perfect for reenacting your favorite sea monster movie scenes (alone) or just generally confusing your landlord when they come to evict you for spending rent money on oversized cephalopods. Because who needs a roof when you have eight arms to hug... your existential dread with?",
@@ -515,6 +1076,28 @@
     "wowFactor": 7.0,
     "featured": false,
     "price": "$39.99"
+  },
+  {
+    "id": "f65f1c4f",
+    "title": "Pool Sharks? More Like Poodles.",
+    "tagline": "Finally, a way to combine crippling debt with chlorine! Imagine: you're hosting a classy pool party, Uncle Barry gets a *little* too tipsy, and decides to settle the family feud with a game of eight-ball. Now, instead of calling security, you can just let him drunkenly chalk up his cue IN the pool. Because apparently, that's what $2,300 gets you these days: enabling bad decisions in aquatic environments. Go ahead, drain your savings. Your landlord will understand.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/waterproof-pool-table_400x333.jpg",
+    "amazonAsin": "B07HMVNNDT",
+    "category": "outdoor",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$2,337.48"
+  },
+  {
+    "id": "fe1884e0",
+    "title": "Learn ABCs, Fail Life",
+    "tagline": "Is your toddler *too* happy? Does their relentless optimism fill you with a cold, existential dread? Then this alphabet book is for YOU. Watch as they learn that 'A' is for 'Abyss' and 'B' is for 'Bankruptcy,' gently preparing them for the soul-crushing realities of adulthood. Buy it now, because therapy is way more expensive. ",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-worst-alphabet-book-ever_400x333.jpg",
+    "amazonAsin": "1492674311",
+    "category": "kids",
+    "wowFactor": 7.0,
+    "featured": false,
+    "price": "$9.30"
   },
   {
     "id": "fe2a3dea",
@@ -594,6 +1177,17 @@
     "price": "$22.99"
   },
   {
+    "id": "07736c3e",
+    "title": "Pizza For Trust Fund Babies",
+    "tagline": "So, you've decided ramen is beneath you, but cooking is *still* too much effort? Presenting: Breakfast Pizza. Because who has time to scramble eggs when you can have them pre-arranged on a greasy disc that costs more than your weekly grocery bill? Perfect for the aspiring influencer who needs that 'effortlessly chic' brunch photo. Enjoy, while your bank account weeps silently.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/goldbelly-breakfast-pizza_400x333.jpg",
+    "amazonAsin": null,
+    "category": "food",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$87.96"
+  },
+  {
     "id": "07ff9f08",
     "title": "Crash Less, Spend More!",
     "tagline": "Finally, glasses for when your mid-life crisis involves illegally street racing your minivan at 3 AM. These HD night driving glasses promise to turn the blurry abyss into… slightly less blurry abyss. Because apparently, seeing *something* before you plow into that mailbox is worth $22. Go ahead, order 'em. Your insurance agent totally won't judge.",
@@ -605,6 +1199,17 @@
     "price": "$21.99"
   },
   {
+    "id": "0c7d993d",
+    "title": "Skateboarding? More like Skate-WATERING!",
+    "tagline": "So, your therapist suggested 'finding inner peace' through extreme sports? Bet she didn't factor in the humiliation of face-planting into a murky pond. Yes, it's a liquid skateboard. No, you don't need it. But when has that ever stopped you from blowing this week's grocery budget on something that screams, 'I peaked in high school'?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/liquid-skateboard_400x333.jpg",
+    "amazonAsin": null,
+    "category": "outdoor",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$350.00"
+  },
+  {
     "id": "0ce66ed3",
     "title": "Cosplay Your Way to Bankruptcy",
     "tagline": "Finally, a way to LARP as a Greek God while simultaneously making ramen your only food group. Imagine showing up to Comic-Con dressed like Apollo, only to realize you can't afford the entrance fee because you spent your life savings on this glorified tin-foil suit. Worth it? Probably not. But will that stop you? Absolutely not.",
@@ -614,6 +1219,17 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": "$2,500.00"
+  },
+  {
+    "id": "0fab0197",
+    "title": "Light Up Your Descent (Into Debt)",
+    "tagline": "So, you've already maxed out your credit card on lift tickets and overpriced mountain lodge snacks? Great! Now you can illuminate your inevitable faceplant with this snowboard illumination system. Perfect for blinding the search and rescue team when you inevitably get lost in a blizzard because you were too busy filming your sick tricks for TikTok. Because who needs retirement when you can have *glow*? ",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/snowboard-illumination-system_400x333.jpg",
+    "amazonAsin": "B0195NGEMK",
+    "category": "outdoor",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$179.00"
   },
   {
     "id": "119dce74",
@@ -660,10 +1276,54 @@
     "price": "$10.38"
   },
   {
+    "id": "1a83e046",
+    "title": "Procrastination: Now With More Guilt!",
+    "tagline": "So, your therapist suggested 'experiencing life' instead of doom-scrolling? Congratulations, you've unlocked a new level of performative wellness. This scratch-off bucket list lets you *pretend* to have adventures, one sad little silver square at a time. Finally, a way to feel inadequate about your leisure time! Pretty soon you'll be broke *and* disappointed. Enjoy!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/adventure-bucket-list-scratch-off-poster_400x333.jpg",
+    "amazonAsin": "B07XS4CZDH",
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$21.33"
+  },
+  {
+    "id": "1b2bc70b",
+    "title": "Divorce Your Wallet, Ride Safe!",
+    "tagline": "So, you're telling me I can drop $1400 on a helmet that *might* prevent permanent brain damage, but *definitely* guarantees I'll be eating ramen for the next six months? Perfect for the guy who values his skull more than his electric bill. Just imagine: you're crashing your motorcycle, listening to smooth jazz, and thinking, 'Well, at least my head's insured... against *impact*, not crippling debt.'",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/shoei-gt-air-3-smart-helmet_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$1,399.00"
+  },
+  {
+    "id": "1b2d4dce",
+    "title": "Ulu Knife: For What, Exactly?",
+    "tagline": "So, you're telling me you're LARPing as an Inuit chef now? Ditch the Insta-influencer lifestyle and grab this Ulu knife. Perfect for... uh... aggressively mincing that single sprig of parsley you're pretending to need for your avocado toast. We all know it'll end up as a glorified letter opener next to your fidget spinner. Wallet, prepare for impact.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/blacksmith-ulu-knife_400x333.jpg",
+    "amazonAsin": "B09ZQ21WBV",
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$59.98"
+  },
+  {
     "id": "1bcf588d",
     "title": "Broke? Now You're Speeding!",
     "tagline": "So, your therapist suggested retail therapy? Excellent. Now you can REALLY avoid your problems in the Audi GT50 Concept. Perfect for those late-night existential crisis drives to the 24-hour bodega for discount ice cream. Sure, you'll be sleeping in your car, but at least you'll be doing it in *style*... if you can afford the gas. Good luck with that.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/audi-gt50-concept_400x333.jpg",
+    "amazonAsin": null,
+    "category": "vehicles",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": ""
+  },
+  {
+    "id": "1c39a8ab",
+    "title": "Crotch Rocket, Meet Debt Rocket",
+    "tagline": "So, you've always dreamed of outrunning your crippling student loan debt? This CFMoto V4 SR-RR Motorcycle is here to help (maybe). Picture this: You're screaming down the highway at 180mph, wind in your hair, repossession notice flapping uselessly behind you. Freedom! Until you realize you also can't afford gas. Worth it? Probably not. Will you buy it anyway? Absolutely.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/cfmoto-v4-sr-rr-motorcycle_400x333.jpg",
     "amazonAsin": null,
     "category": "vehicles",
     "wowFactor": 6.0,
@@ -759,6 +1419,28 @@
     "price": "$105.43"
   },
   {
+    "id": "35645996",
+    "title": "Sip Coffee Grounds, Classy.",
+    "tagline": "So, you're telling me I can now look like I'm sucking the soul out of a swamp creature while simultaneously getting my caffeine fix? Perfect. Finally, a way to ensure I have coffee grounds permanently embedded in my teeth after that backpacking trip I'll never take. Your dentist will *love* this.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/jogo-coffee-tea-filter-straw_400x333.jpg",
+    "amazonAsin": "B09GL9LK2F",
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$27.95"
+  },
+  {
+    "id": "363d6d4f",
+    "title": "Guitar? More Like Guit-ERROR!",
+    "tagline": "So, you've decided your crippling student debt isn't enough? Allow me to introduce the $1000 carbon fiber guitar. Perfect for serenading your cat after your band breaks up because you spent all the gig money on...this. It's electric, because apparently regular guitars are too *analog* for your sophisticated brand of crippling debt. Go ahead, buy it. We both know you'll just end up playing Wonderwall anyway.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/lava-me-4-electric-carbon-fiber-guitar_400x333.jpg",
+    "amazonAsin": "B0CDLXWMNL",
+    "category": "general",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$999.00"
+  },
+  {
     "id": "37b87640",
     "title": "Grow Your Own Regret!",
     "tagline": "So, your dreams of becoming a self-sufficient, kale-chomping urban farmer have been thwarted by, like, sunlight? Introducing the Desktop Aeroponic Plant Ecosystem! Perfect for growing... something. Probably mold. Ideal for the person who wants to feel vaguely productive while their succulents continue to die a slow, agonizing death. Now you can watch plants half-grow while you cry about your student loan debt. Enjoy!",
@@ -814,6 +1496,17 @@
     "price": "$149.00"
   },
   {
+    "id": "3c5c6c97",
+    "title": "Eviction Notice: Hogwarts Edition",
+    "tagline": "So, you're still waiting for that owl, huh? Skip therapy and drop $160 on this glorified paperweight. Pretend you're off to potions class while your landlord slaps a 'Pay Rent or Quit' notice on your door. At least you'll have something to burn for warmth when you're living under the bridge.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/hogwarts-acceptance-letter-gift-box_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$160.00"
+  },
+  {
     "id": "3cd6f62d",
     "title": "Git Gud...Or Just Cheat?",
     "tagline": "Tired of being called a noob? Slap this bad boy on your screen and pretend you suddenly developed lightning-fast reflexes. Perfect for raging pre-teens blaming lag, or that one uncle who thinks he's pro after downing six Mountain Dews. Will it actually make you better? Absolutely not. Will it bankrupt you from buying Doritos to cope with your continued losses? Inevitably.",
@@ -858,6 +1551,28 @@
     "price": "$69.00"
   },
   {
+    "id": "4b7d6ffb",
+    "title": "Portal To Bankruptcy, I Mean, Style",
+    "tagline": "So, you've decided actual doorways are *far* too pedestrian. For a mere $3,600, you can now convince guests you're living in a never-ending M.C. Escher painting. Perfect for confusing the pizza guy or staging an avant-garde interpretive dance about the futility of existence. Because who needs groceries when you have *illusions*?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/archway-mirror-illusion_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$3,600.00"
+  },
+  {
+    "id": "4c30f03b",
+    "title": "Radioactive Holiday Claws",
+    "tagline": "Because normal Christmas cheer just isn't toxic enough. Imagine: you're blacked out at the office party, wake up in a dumpster, and at least your nails are still festive and visible from space. For $30, you too can achieve this level of questionable decision-making. Go on, drain your bank account. You weren't going to pay rent anyway.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/glow-in-the-dark-christmas-nails_400x333.jpg",
+    "amazonAsin": null,
+    "category": "apparel",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$30.95"
+  },
+  {
     "id": "51aee1be",
     "title": "Retirement Crisis: The Car",
     "tagline": "So, your mid-life crisis hit, huh? Instead of therapy, you're blowing your kids' inheritance on this \"Final Edition\" BMW Z4. Picture yourself: wind in your thinning hair, blasting Bon Jovi, desperately trying to recapture your youth while simultaneously regretting that third mortgage. At least you'll look good while spiraling into financial ruin. Because that's what really matters, right?",
@@ -867,6 +1582,28 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": ""
+  },
+  {
+    "id": "54d18df0",
+    "title": "Fifth Element, First Mortgage",
+    "tagline": "So, your landlord's been extra judgy lately, huh? Maybe it's because you spent your down payment on a screen-accurate Mondoshawan. Yeah, *that* Mondoshawan. The one that probably smells faintly of papier-mâché and shattered dreams. Perfect for intimidating Jehovah's Witnesses or silently judging your roommate's life choices. Just don't expect it to pay the bills when you're inevitably evicted.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-fifth-element-mondoshawan_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$156,000.00"
+  },
+  {
+    "id": "556d40f8",
+    "title": "Goodbye, Savings. Hello, Petunias.",
+    "tagline": "Finally, a productive use for that crippling nostalgia! Your crippling debt, I mean. Repurpose your yearning for the 90s into a dirt-filled monument to…well, plants. Perfect for the millennial who unironically uses dial-up sounds as white noise, and wants to imagine that their ficus is running Windows '95. Comes without blue screen of death...probably.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/retro-pc-planter_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$25.00"
   },
   {
     "id": "5685b6c5",
@@ -913,6 +1650,39 @@
     "price": "$129.99"
   },
   {
+    "id": "60d87006",
+    "title": "Divorce Your Savings: Table",
+    "tagline": "So, you're telling me that instead of, say, paying off student loans or funding a retirement account, I can buy a glorified coffee table that *looks* like a glacier? Perfect for when you want to impress your Tinder date with your crippling debt and poor life choices. I mean, who needs financial stability when you can have...a rock? Enjoy being broke.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-glacier-table_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$19,999.99"
+  },
+  {
+    "id": "62c7aa12",
+    "title": "Chomp Down on Bankruptcy",
+    "tagline": "Finally, a way to display your California roll that screams, \"I peaked in 2007 and have questionable taste!\" Imagine hosting a dinner party where you serve your lukewarm supermarket sushi on this monstrosity. Your guests will be impressed... by your commitment to wasting money. Go ahead, blow your grocery budget. We won't judge. Much.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/great-white-shark-sushi-plate_400x333.jpg",
+    "amazonAsin": "B0DF7DKFL7",
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$23.99"
+  },
+  {
+    "id": "63761967",
+    "title": "Hide Your Shame, Homer Style",
+    "tagline": "Finally, an ornament that perfectly captures your post-tax-season vibe. Relive the glory of disappearing into shrubbery to avoid responsibilities, but on your Christmas tree! Because nothing says \"holiday cheer\" like crippling avoidance issues. Buy it. You know you're already emotionally halfway there. Just don't blame us when Aunt Mildred starts asking uncomfortable questions about your life choices.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/homer-in-the-bushes-meme-ornament_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$6.49"
+  },
+  {
     "id": "666022a8",
     "title": "Light Up Your Poor Choices!",
     "tagline": "Finally, a flashlight bright enough to illuminate all the questionable decisions you make at 3 AM! Did you think breaking into the zoo to ride the tortoise was a good idea? Rodman ED08 will help you see how very, very wrong you are. For $67, you too can afford this beacon of shame... right after you skip paying your electric bill.",
@@ -946,6 +1716,39 @@
     "price": ""
   },
   {
+    "id": "6ce8ebb0",
+    "title": "Vader Lamp: Join the Broke Side",
+    "tagline": "Because apparently, therapy is *too* mainstream. Instead, blow $50 to have Darth Vader dramatically illuminate your crippling loneliness. Perfect for the guy who peaked in high school debate club and now lives exclusively on instant ramen. Warning: May attract the attention of neckbeards and/or your landlord demanding back rent.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/darth-vader-statue-led-lightsaber_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$50.00"
+  },
+  {
+    "id": "6e3c2c40",
+    "title": "Affirmations For the Terminally Online",
+    "tagline": "Is your therapist tired of hearing you say 'I'm baby?' This passive-aggressive flip chart delivers the daily dose of 'self-love' you absolutely don't deserve. Imagine flipping to 'You're Doing Great!' right before you set your garbage can on fire because your code didn't compile. Because honestly, who needs genuine support when you can have a sassy card tell you what you want to hear... until you realize it's mocking you too?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/sweary-affirmation-desk-flip-chart_400x333.jpg",
+    "amazonAsin": null,
+    "category": "office",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$27.91"
+  },
+  {
+    "id": "6f274291",
+    "title": "Steal Christmas, Literally.",
+    "tagline": "Finally, a way to express your inner holiday-hating monster without, you know, *actually* ruining Christmas. Imagine reaching for the last slice of pie at Thanksgiving dinner with *this* bad boy. Aunt Mildred will faint, the kids will cry, and you'll finally have that sweet potato pecan pie all to yourself. Is it worth the inevitable family therapy? Probably not. Will you buy it anyway? Definitely.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/grinchs-christmas-hand_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$19.99"
+  },
+  {
     "id": "7201024c",
     "title": "Relive Your Shame, Digitally!",
     "tagline": "Because your crippling nostalgia for the 90s *absolutely* requires a $200 digital camera that looks like it was pulled from a landfill circa 2003. Perfect for filming your next regrettable karaoke night, so you can cringe at it in glorious low-res forever. Just what you needed: further proof you peaked in middle school, now in digital format!",
@@ -968,6 +1771,17 @@
     "price": "$995,000.00"
   },
   {
+    "id": "7b11e949",
+    "title": "Vectrex Mini: Tiny, Useless Joy",
+    "tagline": "Remember when you should have been doing homework, but were instead losing at vector-based games? Now you can relive that crippling nostalgia in a smaller, even more pointless format! Perfect for distracting yourself from your crushing student loan debt while simultaneously reminding you of your misspent youth. Because who needs food when you have glowing lines?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/vectrex-mini_400x333.jpg",
+    "amazonAsin": null,
+    "category": "gaming",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$42.00"
+  },
+  {
     "id": "7cac1e35",
     "title": "Steampunk Smells, Ruined Dreams",
     "tagline": "Because your crippling student loan debt wasn't depressing enough, now you can diffuse lavender into your tiny, overpriced apartment using a faux-vintage lightbulb. Perfect for masking the scent of desperation and instant ramen. Just imagine: Thomas Edison would be *thrilled* to know his invention ended up atomizing eucalyptus oil. Go on, embrace the irony. Your bank account certainly will.",
@@ -988,6 +1802,17 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": ""
+  },
+  {
+    "id": "7fc9476d",
+    "title": "Road Rage Relish Ready",
+    "tagline": "Because apparently civilization peaked when someone demanded hands-free access to ketchup while piloting a two-ton metal death machine. Perfect for the sociopath who needs to drown their McNuggets in sweet 'n sour sauce mid-chase, this condiment caddy is guaranteed to make you the only person at the scene of the accident who's fully satisfied. Just try explaining this to your insurance company.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/in-car-condiment-holder_400x333.jpg",
+    "amazonAsin": "B07D1KW3PB",
+    "category": "vehicles",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$9.99"
   },
   {
     "id": "82d140d7",
@@ -1021,6 +1846,28 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": ""
+  },
+  {
+    "id": "8fca541b",
+    "title": "Beet Your Mortician's Here!",
+    "tagline": "So, your doctor finally cornered you about your impending doom? Instead of, like, vegetables, you're gonna chew these beet-flavored sadness squares. Picture it: popping one as you max out your credit card on a jet ski. Because *nothing* says 'healthy lifestyle' like impending debt and questionable life choices. Enjoy the placebo effect, you absolute disaster.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/superbeets-heart-chews_400x333.jpg",
+    "amazonAsin": "B0DLPGZTBL",
+    "category": "food",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$89.95"
+  },
+  {
+    "id": "91463f0d",
+    "title": "Therapy? Nah, Cookies.",
+    "tagline": "So, your therapist just suggested you \"find healthy coping mechanisms\"? Clearly, they haven't seen these Belgian Chocolate Salted Caramel Cookies. Imagine: your ex is getting married, your boss hates you, and your cat just coughed up a hairball on your favorite rug. Solution? Shove these directly into your face until the pain… well, at least fades a little. Just remember, diabetes is a thing. But so is happiness... fleeting, cookie-flavored happiness.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/belgian-chocolate-salted-caramel-cookies_400x333.jpg",
+    "amazonAsin": null,
+    "category": "food",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$19.46"
   },
   {
     "id": "94ba0666",
@@ -1100,6 +1947,39 @@
     "price": ""
   },
   {
+    "id": "a24d36cb",
+    "title": "Puke Preventers: Fashion-Forward?",
+    "tagline": "So, you're telling me I can finally read trashy romance novels on the bus without recreating the Exorcist scene? These motion sickness glasses promise to keep your stomach contents where they belong, which is great for your fellow commuters. Finally you can arrive at work without ruining your shoes! Now you can spend all your money on barf bags. Priorities.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/motion-sickness-preventing-glasses_400x333.jpg",
+    "amazonAsin": "B0CF8NZDDL",
+    "category": "general",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$9.99"
+  },
+  {
+    "id": "a319863d",
+    "title": "Divorce Papers Not Included.",
+    "tagline": "So, your spouse finally left you, and you've decided to wallow in self-pity with overpriced vinyl? This Noelle Ryman Suite won't bring them back, but at least you can dramatically spin records while sobbing into a bottle of wine. Because nothing says \"I'm coping\" like spending $765 to amplify your misery. Just don't blame us when you're evicted.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/noelle-ryman-vinyl-suite_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$765.00"
+  },
+  {
+    "id": "a755cf91",
+    "title": "Evict Yourself for Espresso",
+    "tagline": "Because apparently ramen noodles aren't depressing enough, now you can pair them with a $2,000 cup of bean juice. This machine grinds, tamps, and brews like some caffeinated robot butler judging your life choices. Perfect for the aspiring influencer who needs to look bougie while weeping over their dwindling bank account. Go ahead, skip rent this month. You deserve it, champ.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/terra-kaffe-automatic-espresso-machine_400x333.jpg",
+    "amazonAsin": "B0DM2GG1YZ",
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$1,995.00"
+  },
+  {
     "id": "a7e6fdf1",
     "title": "LEGO: Bankruptcy, The Set",
     "tagline": "Finally, a way to display your crippling debt *and* your love for a franchise that peaked in 1983! This LEGO Star Wars Logo is perfect for that empty space above your cat's food bowl. Because let's be honest, you're choosing between groceries and this plastic brick monument to your poor financial decisions. Good luck explaining this one to the landlord.",
@@ -1133,6 +2013,39 @@
     "price": "$9.89"
   },
   {
+    "id": "ac054c2a",
+    "title": "Evict Yourself, Gamer!",
+    "tagline": "Finally, a way to commemorate the time you blew your college fund on *Ocarina of Time* speedruns. These N64 cartridge ornaments are perfect for decorating the sad, empty tree you bought with ramen money. Because who needs food when you can have nostalgic plastic reminding you of your crippling debt? Merry Christmas, you beautiful disaster.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/n64-cartridge-ornaments_400x333.jpg",
+    "amazonAsin": null,
+    "category": "gaming",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$11.77"
+  },
+  {
+    "id": "ae098a1c",
+    "title": "Leaf Blower: For Revenge!",
+    "tagline": "Finally, a way to wage war on your neighbor's perfectly manicured lawn. Forget passive-aggressive notes; unleash a hurricane of disappointment directly onto their prize-winning roses. Yes, it's cordless, because freedom means the ability to blow leaves into oblivion wherever, whenever. Your bank account will hate you, but your inner chaos demon will be thrilled.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/hoto-cordless-leaf-blower_400x333.jpg",
+    "amazonAsin": "B0DG57LLWV",
+    "category": "outdoor",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$159.99"
+  },
+  {
+    "id": "ae11a212",
+    "title": "Goodbye Rent, Hello Tatami",
+    "tagline": "So, your landlord finally evicted you because you spent all your money on Funko Pops? No problem! Just slap down this Japanese floor mat and tell everyone you're 'embracing minimalism.' Sure, you'll be sleeping on the floor of a Starbucks, but at least it'll be *authentic* floor.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/japanese-floor-mat_400x333.jpg",
+    "amazonAsin": "B07KSRWZZW",
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$168.67"
+  },
+  {
     "id": "aec29b95",
     "title": "Backgammon? Still a Thing?",
     "tagline": "So, you're telling me you *don't* have enough crippling debt? Well, good news! Now you can blow your grocery money pretending to be a sophisticated intellectual at your local artisanal coffee shop. Watch as everyone subtly judges your desperate attempt to recapture your glory days from that one semester abroad. Just try not to rage-quit when you inevitably lose to Brenda, the retired librarian. She's been waiting for you.",
@@ -1142,6 +2055,28 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": ""
+  },
+  {
+    "id": "b373df72",
+    "title": "Brick. But Soft. WHY?",
+    "tagline": "Finally, a brick for people too afraid to commit to… anything, really. Need to practice your home demolition skills but also value your thumbs? This soft foam brick is for you. Perfect for chucking at your roommate after they eat your leftovers, without *actually* causing any real damage. Because let's be honest, your passive-aggressive tendencies are already doing enough harm. Go ahead, buy it. You're already broke anyway.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/soft-foam-brick_400x333.jpg",
+    "amazonAsin": "B0F9MS1JSC",
+    "category": "kids",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$12.00"
+  },
+  {
+    "id": "b728a4cb",
+    "title": "Caffeinating Construction Carnage",
+    "tagline": "Finally, a way to justify buying yet *another* power tool battery. Because who *hasn't* been on a job site, desperately needing a lukewarm cup of joe brewed by something that also powers a drill? Perfect for the contractor who's already behind schedule and needs one more completely unnecessary gadget to distract them from actual work. Your crippling debt will thank you.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/makita-power-tool-battery-coffee-maker_400x333.jpg",
+    "amazonAsin": "B07B3LZQJ9",
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$156.00"
   },
   {
     "id": "b84fa4d7",
@@ -1199,6 +2134,17 @@
     "price": "$17.99"
   },
   {
+    "id": "c32b2065",
+    "title": "Debt: Now In Adorable Tins!",
+    "tagline": "Finally, a place to store the hopes and dreams you sold to pay for that slightly-too-expensive artisanal cheese. This tin is perfect for stashing your emergency ramen money (before you inevitably spend it on limited-edition Funko Pops). I mean, who needs financial security when you can have a cute, slightly-smaller-than-you'd-expect container? At least you'll look good going broke.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/treasure-trinket-tin_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$12.00"
+  },
+  {
     "id": "c37f4018",
     "title": "Godzilla: Rent's Due Edition",
     "tagline": "Finally, a way to make your ramen-stained studio apartment feel even more... complete. This Godzilla figure lets you reenact your landlord screaming about late payments, only this time, YOU'RE the unhinged, atomic-breath-wielding reptile. Just remember, destroying tiny plastic buildings doesn't actually pay the bills. Now hand over fifty bucks and face the consequences.",
@@ -1210,6 +2156,28 @@
     "price": "$50.00"
   },
   {
+    "id": "c961ef7c",
+    "title": "Demogorgon Thirst Trap",
+    "tagline": "Because dropping $70 on glorified sugar water endorsed by tweens fighting interdimensional monsters is *exactly* how you signal financial stability. Imagine: you're finally face-to-face with Vecna, but you're parched. Whip out this limited-edition Gatorade. He'll be so impressed with your poor life choices, he'll let you live. Probably. Now, if you'll excuse me, I need to sell a kidney to afford this.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/stranger-things-x-gatorade-lemon-lime_400x333.jpg",
+    "amazonAsin": null,
+    "category": "food",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$70.00"
+  },
+  {
+    "id": "ccb4f990",
+    "title": "Wasteland Chic? More Like Wasteland Broke",
+    "tagline": "So, your therapist finally convinced you to stop LARPing as a vault dweller in your mom's basement? Congratulations! Now you can take that crippling debt and invest it in *this* Pip-Boy 3000 replica. Finally, you can calculate the exact moment your ramen noodles will be ready during the apocalypse. Don't worry, you'll still be irradiated with buyer's remorse.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/fallout-pip-boy-3000-replica_400x333.jpg",
+    "amazonAsin": null,
+    "category": "gaming",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$299.99"
+  },
+  {
     "id": "cf5866a4",
     "title": "Orbitally Overpriced Phone Charger",
     "tagline": "Because apparently, your phone's battery isn't the only thing that needs a constant influx of energy. Recreate the Apollo 13 mission on your desk, except instead of saving astronauts, you're just saving your doomscrolling addiction. Perfect for the person who peaked in 6th grade science class and now compensates with useless desk toys. Prepare to explain to your landlord why you're late on rent...again.",
@@ -1219,6 +2187,17 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": "$119.99"
+  },
+  {
+    "id": "cf7357f0",
+    "title": "Robot To Fold Your Shame",
+    "tagline": "Behold, the Launbot! Because admitting defeat to laundry mountain is apparently grounds for blowing a hundred bucks. Picture this: you, staring blankly at a pile of clothes that mocks your very existence. Instead of, you know, *folding* them, you unleash this plastic overlord. It'll probably do a mediocre job, but hey, at least *you* didn't do it. Now you can be disappointed in a machine instead of yourself. Progress!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/launbot_400x333.jpg",
+    "amazonAsin": null,
+    "category": "home",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$101.00"
   },
   {
     "id": "d1a29a4b",
@@ -1254,6 +2233,17 @@
     "price": ""
   },
   {
+    "id": "d8164073",
+    "title": "Goodbye Rent, Hello Tablet",
+    "tagline": "So, your therapist suggested journaling, but you're allergic to *feelings* and paper? This $530 e-ink tablet is the perfect solution! Now you can digitally doodle passive-aggressive notes to your roommate instead of facing your crippling debt. Think of it as an expensive distraction from reality, brought to you by late-stage capitalism. You're welcome (and broke).",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/boox-note-air5-c-tablet_400x333.jpg",
+    "amazonAsin": null,
+    "category": "tech",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$530.00"
+  },
+  {
     "id": "da1143b6",
     "title": "Debt? Divorce? Football Mugs!",
     "tagline": "Finally, a way to show everyone you peaked in high school *after* you already bought the letterman jacket! Picture this: You're screaming at the TV, covered in nacho cheese, and your team loses. Solution? Hurl this overpriced ceramic projectile at the wall. Because property damage is *exactly* what your crumbling life needs. Go team!",
@@ -1263,6 +2253,39 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": "$24.99"
+  },
+  {
+    "id": "dbda0ed9",
+    "title": "Scream for Help... in Style!",
+    "tagline": "Lost again, Chad? Did your influencer hike lead you astray from the designated selfie spots? Well, fork over half a grand for this Garmin gadget. It'll let you text your helicopter pilot dad when you inevitably get separated from your organic trail mix. Just think of it as a really expensive carrier pigeon for the terminally directionally-challenged. Your bank account is weeping.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/garmin-inreach-mini-3-plus_400x333.jpg",
+    "amazonAsin": "B0G4RST8LV",
+    "category": "outdoor",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$499.99"
+  },
+  {
+    "id": "dcd5395f",
+    "title": "Caffeine Addiction: The Calendar",
+    "tagline": "Finally, a way to micromanage your slow descent into caffeine dependency! Each day features a new, exotic bean to fuel your crippling anxiety. Perfect for the person who hates money, sleep, and their own digestive system. Because who needs rent when you can experience 24 different flavors of impending heart palpitations?",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/coffee-advent-calendar_400x333.jpg",
+    "amazonAsin": null,
+    "category": "food",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$239.95"
+  },
+  {
+    "id": "dd3c453a",
+    "title": "Finally, Pants For Furries.",
+    "tagline": "So, you've already alienated your family. Now you can alienate the general public! These 'Friendly Fursuit Pants' are perfect for confusing your neighbors while you take out the trash dressed as Sparkle the Squirrel. Buy them now and accelerate your descent into utter madness. Your therapist will LOVE this.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/friendly-fursuit-pants_400x333.jpg",
+    "amazonAsin": null,
+    "category": "apparel",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$98.00"
   },
   {
     "id": "dd7f806e",
@@ -1342,6 +2365,17 @@
     "price": ""
   },
   {
+    "id": "e9f2ee2e",
+    "title": "Fluffy's Bad Decisions: The Kit",
+    "tagline": "Because Mittens WILL try to eat a bee. This first aid kit is for when your furry idiot inevitably decides that chasing squirrels into traffic is a good idea. Sure, you *could* just Google it and use that crusty band-aid you found under the couch, but where's the fun in that? Go on, blow your grocery money. Your cat deserves subpar medical attention bought on impulse.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/pet-first-aid-kit_400x333.jpg",
+    "amazonAsin": "B0B1W5R11Y",
+    "category": "pet",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$34.95"
+  },
+  {
     "id": "eb3cfb49",
     "title": "Letterboxd Merch? We're Doomed.",
     "tagline": "So, you've already alienated everyone you know by rating *Paddington 2* a measly 3 stars? Good. Now, buy this 'Letterboxd Video Store' thing. I'm picturing a trust fund kid, ironically wearing this to a film studies lecture, while simultaneously complaining about how his parents *just don't understand* his need for a limited-edition Criterion box set. Enjoy being broke!",
@@ -1375,6 +2409,28 @@
     "price": "$19,700.00"
   },
   {
+    "id": "f73c9839",
+    "title": "Diabetes on a Stick!",
+    "tagline": "Is your dentist not actively trying to ruin your life enough? Introducing the one-pound candy cane, perfect for when you want to aggressively assert your dominance at the office holiday party. Imagine: Carol from accounting is humming \"Jingle Bells\" one too many times. Solution? Whip this bad boy out and start gnawing. Sure, you'll need a root canal, but Carol will be traumatized. You're welcome... and broke. Again.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/the-1-lb-giant-candy-cane_400x333.jpg",
+    "amazonAsin": "B01M365LDJ",
+    "category": "food",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$17.99"
+  },
+  {
+    "id": "f99b5cff",
+    "title": "Unlock Peak Autism Performance",
+    "tagline": "Finally, a way to outsource your hyperfixations! Need to calculate the airspeed velocity of an unladen swallow? Now you can do it... *faster.* We all know you're already spending 18 hours a day memorizing train schedules, but now you can achieve maximum efficiency. Just imagine the possibilities! (Or, you know, just keep scrolling on Wikipedia. We're not your mom.)",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/extra-strength-autistic_400x333.jpg",
+    "amazonAsin": null,
+    "category": "novelty",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$12.99"
+  },
+  {
     "id": "fde84dc8",
     "title": "Pay Us For Useless Knowledge!",
     "tagline": "Tired of actually *finding* needles in haystacks? We've got the solution: a book ALL ABOUT IT. Finally, you can sound like a pretentious know-it-all at parties when someone mentions the phrase, instead of, you know, being useful. Because let's be honest, you're already broke; might as well be obnoxiously informed about pointless things too.",
@@ -1384,6 +2440,28 @@
     "wowFactor": 6.0,
     "featured": false,
     "price": "$19.99"
+  },
+  {
+    "id": "ff92b3fb",
+    "title": "Morphin' Into Debt, Apparently",
+    "tagline": "So, you're telling me I can finally live out my childhood dream of LARPing as the Red Ranger, but only if I sell my kidneys first? Perfect. Finally, a way to justify skipping rent this month. I mean, who needs a roof when you can single-handedly defeat Rita Repulsa... or at least, look like you could while eating ramen in your mom's basement. Go Go Power... Bankruptcy!",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/power-rangers-helmet_400x333.jpg",
+    "amazonAsin": null,
+    "category": "kids",
+    "wowFactor": 6.0,
+    "featured": false,
+    "price": "$50,000.00"
+  },
+  {
+    "id": "c4bd2b05",
+    "title": "Dragon Shouts and Rent Doubts",
+    "tagline": "So, you're telling me that *another* Skyrim re-release isn't enough? Now you need to watch a digital sun rise on your cheap coffee mug to feel something? I bet you'll chug lukewarm Folgers from this thing while arguing on Reddit about lore accuracy. Go ahead, waste your money. Your landlord thanks you for the inevitable late fee.",
+    "image": "https://cdn.thisiswhyimbroke.com/thumb/skyrim-awaken-heat-changing-mug_400x333.jpg",
+    "amazonAsin": null,
+    "category": "gaming",
+    "wowFactor": 5.0,
+    "featured": false,
+    "price": "$19.90"
   },
   {
     "id": "a59a458f",

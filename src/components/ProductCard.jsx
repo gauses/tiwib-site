@@ -1,7 +1,13 @@
+import { useState, useEffect } from 'react';
 import './ProductCard.css';
 import { handleProductClick } from '../utils/affiliateLink';
 
-function ProductCard({ product }) {
+function ProductCard({ product, isSaved, onToggleSave }) {
+    const toggleSave = (e) => {
+        e.stopPropagation(); // Don't trigger card click
+        onToggleSave();
+    };
+
     const handleClick = () => {
         const affiliateLink = handleProductClick(product);
         window.open(affiliateLink, '_blank', 'noopener,noreferrer');
@@ -30,6 +36,13 @@ function ProductCard({ product }) {
                     className="product-image"
                     loading="lazy"
                 />
+                <button
+                    className={`save-button ${isSaved ? 'is-saved' : ''}`}
+                    onClick={toggleSave}
+                    aria-label={isSaved ? "Remove from wishlist" : "Add to wishlist"}
+                >
+                    {isSaved ? '❤️' : '🤍'}
+                </button>
                 {product.featured && (
                     <span className="featured-badge">🔥 HOT</span>
                 )}
