@@ -3800,7 +3800,7 @@
     "tagline": "For the nursing mom who's also a secret agent, this discreet dispenser is perfect for sneaking in a feed during high-stakes poker games or covert ops.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/boobie-milk-dispenser_400x333.jpg",
     "amazonAsin": "B006UTDG24",
-    "category": "baby products don't exist as a category so it will be kids",
+    "category": "kids",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$9.99"
@@ -5626,7 +5626,7 @@
     "tagline": "Tired of forks? Use these meat shredding claws to tear apart your BBQ like a wolverine at a potluck, because who needs dignity at a family reunion?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/meat-shredding-claws-2_400x333.jpg",
     "amazonAsin": "B01N5U14FA",
-    "category": "kitchen utensils are often categorized under 'home' in general product categorization, so the product 'meat shredding claws' would fall under the 'home' category in the given list, however since 'kitchen' or 'home' is not explicitly provided as an option and 'home' is the closest option: \nhome",
+    "category": "home",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$35.99"
@@ -5703,7 +5703,7 @@
     "tagline": "For when you need to document your toy car's daredevil stunts, this mount lets you strap a GoPro to a Hot Wheels car, because your cat's birthday party isn't complete without a miniature car chase video.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/hot-wheels-gopro-mount-car_400x333.jpg",
     "amazonAsin": "B07DN7JXTJ",
-    "category": "toys is not an option so: kids",
+    "category": "kids",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$11.95"
@@ -7111,7 +7111,7 @@
     "tagline": "For when you want to wear a hoodie, but only on your neck, because who needs personal space on a crowded bus anyway?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/hoodie-travel-pillow_400x333.jpg",
     "amazonAsin": "B00B84W528",
-    "category": "travel",
+    "category": "general",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$20.99"
@@ -10664,7 +10664,7 @@
     "tagline": "Because your yoga mat needs a quiver, for that one time you need to roll out and defend yourself from downward-facing dog enthusiasts.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/quiver-of-arrows-yoga-bag_400x333.jpg",
     "amazonAsin": "B00R436KVE",
-    "category": "sports is not an option, so the closest category would be \noutdoor",
+    "category": "outdoor",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$49.97"
@@ -13425,7 +13425,7 @@
     "tagline": "For when you're cooking breakfast while battling a cold, this separator keeps your eggs tidy despite your runny nose's best efforts to ruin everything.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/runny-nose-yolk-separator_400x333.jpg",
     "amazonAsin": "B0000CFGP6",
-    "category": "kitchen tools are generally found in the home, so: home",
+    "category": "home",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$19.95"
@@ -14932,7 +14932,7 @@
     "tagline": "For when you crack open a soda at 3am and don't want the whole household to know, this lid keeps your shame fresh.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/sealing-soda-can-lid_400x333.jpg",
     "amazonAsin": "B078Z314K4",
-    "category": "kitchen items are often categorized under \"home\" in general product categorization, and since \"kitchen\" isn't an option and \"food\" seems more related to the contents rather than utensils or accessories, the closest category would be: home",
+    "category": "home",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$7.55"
@@ -14987,7 +14987,7 @@
     "tagline": "For when you've tried everything, including praying to the hair gods, this laser helmet might just regrow that luscious mane, or at least give you a cool headpiece for your next sci-fi cosplay.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/laser-hair-regrowth-helmet_400x333.jpg",
     "amazonAsin": "B01B29PCUU",
-    "category": "health is not an option so the closest one is \nhome",
+    "category": "home",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$399.00"
@@ -16527,7 +16527,7 @@
     "tagline": "Because your cat needs something to chase, introduce the Angry Birds R/C Helicopter into your living room chaos. Watch as feathers fly and furniture gets rearranged.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/angry-birds-rc-helicopter_400x333.jpg",
     "amazonAsin": "B008MULA4K",
-    "category": "toys is not an option so: kids",
+    "category": "kids",
     "wowFactor": 8.0,
     "featured": false,
     "price": "$39.55"
@@ -18650,7 +18650,7 @@
     "tagline": "For when you need to unleash your inner Norse god on a particularly tough cut of meat, this meat tenderizer shaped like Thor's hammer is oddly perfect for a medieval-themed dinner party gone wrong.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/thors-hammer-meat-tenderizer_400x333.jpg",
     "amazonAsin": "B07FFCXSPM",
-    "category": "kitchen items are typically found in the home, so: home",
+    "category": "home",
     "wowFactor": 7.0,
     "featured": false,
     "price": "$14.99"
@@ -21444,7 +21444,7 @@
     "tagline": "Because your brunch needed a lion-shaped waffle, this gadget is perfect for the Sunday morning when you're hungover and trying to impress your niece with 'fun aunt' credentials.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/circus-animal-waffle-maker_400x333.jpg",
     "amazonAsin": "B003NUT5EG",
-    "category": "kitchen appliances would fall under home, so: home",
+    "category": "home",
     "wowFactor": 7.0,
     "featured": false,
     "price": "$19.85"
@@ -21455,7 +21455,7 @@
     "tagline": "For when you need to quantify your kickabout with friends, this smart soccer ball tracks your skills, because bragging rights aren't enough anymore.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/dribbleup-smart-soccer-ball_400x333.jpg",
     "amazonAsin": "B076J2453N",
-    "category": "sports is not an option so the closest would be \ngaming",
+    "category": "gaming",
     "wowFactor": 7.0,
     "featured": false,
     "price": "$89.99"
@@ -22654,7 +22654,7 @@
     "tagline": "For the chaotic morning when you need symmetrical eggs to balance out the impending doom of your day, this mold saves the day, one sunny-side up at a time.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/sunnyside-up-egg-mold_400x333.jpg",
     "amazonAsin": "B00B7KGXXK",
-    "category": "kitchen items are typically found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$19.99"
@@ -23259,7 +23259,7 @@
     "tagline": "For that one BBQ where you need to slice a watermelon into perfect cubes while impressing your in-laws with your questionable life choices.",
     "image": "https://cdn.thisiswhyimbroke.com/images/home-basics-watermelon-slicer.gif",
     "amazonAsin": "B00RD633VC",
-    "category": "kitchen utensils are typically found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$9.99"
@@ -25371,7 +25371,7 @@
     "tagline": "For when you're too lazy to leave the house, but still want to perfect your putt. This vent cup brings the golf course to your living room, because who needs human interaction anyway?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/indoor-golf-putting-vent-cup_400x333.jpg",
     "amazonAsin": "B087XBKKHT",
-    "category": "sports is not an option so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$9.97"
@@ -26581,7 +26581,7 @@
     "tagline": "For when you need to separate your clean socks from the 17 used tissues in your carry-on, this divider travel bag is a lifesaver. Or at least a sanity-saver.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/divider-travel-bag_400x333.jpg",
     "amazonAsin": "B008KOZ648",
-    "category": "travel bags are often used for outdoor or general purposes, but given the options, the best fit would be: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$63.69"
@@ -27098,7 +27098,7 @@
     "tagline": "For when you want to practice your hooks in the living room, but your spouse won't hold the pads anymore.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/fightmaster-boxing-trainer_400x333.jpg",
     "amazonAsin": "B077P7M3LY",
-    "category": "sports is not an option so the closest would be \noutdoor",
+    "category": "outdoor",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$799.99"
@@ -27329,7 +27329,7 @@
     "tagline": "For when you're making breakfast for one, but still want to feel like a responsible adult, this smart tray holds a single egg substitute, because who needs human connection when you have precision temperature control?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/egg-replacement-smart-tray_400x333.jpg",
     "amazonAsin": "B00GN92KQ4",
-    "category": "kitchen items are often found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$9.17"
@@ -27637,7 +27637,7 @@
     "tagline": "For those times you're stuck in a middle seat on a redeye, this twistable memory foam pillow might just save your neck from the passenger in front of you who insists on reclining.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/twistable-memory-foam-travel-pillow_400x333.jpg",
     "amazonAsin": "B01IEJHJWK",
-    "category": "travel pillows are often used for comfort while traveling, which can be outdoors or in vehicles, but the most relevant category here would be related to where you rest. \nhome",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$19.99"
@@ -29936,7 +29936,7 @@
     "tagline": "For the morning you wake up, realize you're out of donuts, and decide to toast the ones you have left because adulting is hard and priorities are weird.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/the-donut-toaster_400x333.jpg",
     "amazonAsin": "B076XD9517",
-    "category": "kitchen appliances are generally found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$24.55"
@@ -30662,7 +30662,7 @@
     "tagline": "For when you're willing to scrape the bottom of the jar for that last bit of peanut butter, this silicone spoon is your enabler. Use it to justify eating an entire jar in one sitting, no judgments here.",
     "image": "https://cdn.thisiswhyimbroke.com/images/Dreamfarm-Mini-Supoon-Silicone-Jar-Scraping-Spoon.gif",
     "amazonAsin": "B00A23IUAW",
-    "category": "kitchen utensils are generally found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$8.49"
@@ -31080,7 +31080,7 @@
     "tagline": "For when you need to open stubborn jars or impress your cat with your grip strength, these wraps are here to help. Because, priorities.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/grip-strength-builder-wraps_400x333.jpg",
     "amazonAsin": "B005FIS14Y",
-    "category": "sports isn't an option so the closest is \nhome",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$40.38"
@@ -31267,7 +31267,7 @@
     "tagline": "Because airplane headrests are a myth, this inflatable cloud saves your neck on a 6am redeye to nowhere, when the person in front reclines into your lap.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/frontal-travel-pillow_400x333.jpg",
     "amazonAsin": "B07RPM8FGZ",
-    "category": "travel is related to outdoor, but this product seems more related to comfort during travel, so it is more related to home or general, however, considering it is for kids and adults, and for travel, the most suitable category would be: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$28.40"
@@ -32521,7 +32521,7 @@
     "tagline": "For when you're playing tennis and your glasses keep slipping down your sweaty nose, these silicone straps will save the day, or at least your serve.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/silicone-sports-glasses-strap-holder_400x333.jpg",
     "amazonAsin": "B06XTGDXYT",
-    "category": "sports glasses straps would fall under apparel",
+    "category": "apparel",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$5.59"
@@ -33951,7 +33951,7 @@
     "tagline": "For that one aunt who insists on making homemade mayonnaise at family gatherings, this separator is a must. It's the only thing standing between her and a sauce-covered kitchen disaster.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/goldfish-egg-yolk-separator_400x333.jpg",
     "amazonAsin": "B00I0VE6YM",
-    "category": "kitchen is not an option, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$19.99"
@@ -34787,7 +34787,7 @@
     "tagline": "For when you've eaten an entire bag in one sitting, but still want to pretend you're saving some for later, this resealer is here to enable your denial.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/potato-chip-bag-resealer_400x333.jpg",
     "amazonAsin": "B000N5YBKC",
-    "category": "kitchen items are typically found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$21.59"
@@ -35348,7 +35348,7 @@
     "tagline": "For when you need to bang out a solo during a 3am breakfast diner jam session, but your pancakes are getting cold.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/drum-set-stand-for-tablet_400x333.jpg",
     "amazonAsin": "B009198ADU",
-    "category": "music is not an option so the closest category would be tech",
+    "category": "tech",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$240.85"
@@ -36855,7 +36855,7 @@
     "tagline": "For when you need to block out your neighbor's snoring and your own existential dread on a redeye flight, this wraparound eye mask and travel pillow is the awkward hug you never knew you needed.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/wrap-around-eye-mask-travel-pillow_400x333.jpg",
     "amazonAsin": "B07JGY645Y",
-    "category": "travel",
+    "category": "general",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$34.99"
@@ -37680,7 +37680,7 @@
     "tagline": "For when you're too lazy to use a plate and a fork, but still want to eat pizza like a civilized human, these pizza scissors spatula are here to save the day, or at least your couch cushions.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/pizza-scissor-spatula_400x333.jpg",
     "amazonAsin": "B003TXB8WO",
-    "category": "kitchen utensils are generally found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$11.99"
@@ -38780,7 +38780,7 @@
     "tagline": "For when you're stuck on a 12-hour bus ride with a snorer, this travel pillow lets you lean on the nice stranger next to you without being too creepy.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/the-long-distance-travel-pillow_400x333.jpg",
     "amazonAsin": "B0051VEHP2",
-    "category": "travel pillows are often used for comfort, the most suitable category is: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$24.46"
@@ -39154,7 +39154,7 @@
     "tagline": "For when you're mid-bicep curl and your towel slips away, this magnetic gym towel saves the day, clinging to your metal weights like a desperate gym partner.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/the-magnetic-gym-towel_400x333.jpg",
     "amazonAsin": "B07C5Y2431",
-    "category": "sports is not an option, so the closest one is \noutdoor",
+    "category": "outdoor",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$24.99"
@@ -40595,7 +40595,7 @@
     "tagline": "For when you want to reuse last night's bacon grease in your morning eggs, without the awkward floaties, this strainer is your weird friend.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/bacon-grease-strainer_400x333.jpg",
     "amazonAsin": "B07F1F6RQH",
-    "category": "kitchen items are generally categorized under 'home' since that is where they are most often used, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$18.99"
@@ -42399,7 +42399,7 @@
     "tagline": "For when you need to nuke bacon while keeping it awkwardly suspended in mid-air, because who needs a plate, really?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/microwave-bacon-rack_400x333.jpg",
     "amazonAsin": "B0002HSFB2",
-    "category": "kitchen items are typically categorized under \"home\" so \nhome",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$16.49"
@@ -43004,7 +43004,7 @@
     "tagline": "For when you've overdone it on the BLTs and your kitchen's slicker than a freshman's excuses, this sponge absorbs the evidence of your bacon binge.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/the-bacon-grease-sponge_400x333.jpg",
     "amazonAsin": "B019YZV3K2",
-    "category": "kitchen items are generally categorized under 'home', since the product is related to cleaning up after cooking, the most suitable category would be: \nhome",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$8.50"
@@ -45600,7 +45600,7 @@
     "tagline": "For when you've packed 17 pairs of socks and need to know exactly how much your poor life choices will cost you in airline fees.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/luggage-weight-scale_400x333.jpg",
     "amazonAsin": "B00A8SXGKA",
-    "category": "travel is not an option, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$10.50"
@@ -46315,7 +46315,7 @@
     "tagline": "For when you're too busy staring at the wall to notice your eggs are done, this timer saves the day. Or at least your overcooked eggs.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/perfect-hard-boiled-egg-timer_400x333.jpg",
     "amazonAsin": "B00004UE75",
-    "category": "kitchen items are generally found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$9.99"
@@ -46458,7 +46458,7 @@
     "tagline": "For when you've lost one too many fries to the car seat abyss, this catcher saves the day, or at least your snack.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/car-gap-catcher_400x333.jpg",
     "amazonAsin": "B00BYH6C1E",
-    "category": "automobiles is not an option, so the next best category is: vehicles",
+    "category": "vehicles",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$24.99"
@@ -47063,7 +47063,7 @@
     "tagline": "For when you want to rest your head on a plane, but not on the person next to you, this travel headrest is a sanity saver. Use it to politely decline conversation with your seatmate.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/cardiff-travel-headrest_400x333.jpg",
     "amazonAsin": "B00GOP6HVQ",
-    "category": "travel products could fall under various categories, but given the options, the most suitable one is: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$49.99"
@@ -47085,7 +47085,7 @@
     "tagline": "For when you're stuck in traffic and really can't hold it, this portable urinal saves the day (and your car's upholstery). Because who needs a restroom when you've got a bottle?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/reusable-portable-travel-urinal_400x333.jpg",
     "amazonAsin": "B01LXVMGXN",
-    "category": "travel is not a category, however, a urinal is typically used in a home or outdoor setting, the product is portable, so it can be used in various settings. \nhome",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$8.35"
@@ -50814,7 +50814,7 @@
     "tagline": "For the 3am coconut craving that requires a full toolkit, because smashing it on the counter just isn't classy.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/coconut-opening-kit_400x333.jpg",
     "amazonAsin": "B07J9ZJHW2",
-    "category": "kitchen utensils are often found in the home, so: home",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$26.89"
@@ -50858,7 +50858,7 @@
     "tagline": "For the chef who insists on making hollandaise from scratch at 3am, this separator saves the day (and your omelette) from egg yolk chaos.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/egg-yolk-seperator_400x333.jpg",
     "amazonAsin": "B00B3YJHEC",
-    "category": "kitchen items are typically categorized under \"home\" in general product categorization, and since egg yolk separator is a kitchen tool, \nhome",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$8.50"
@@ -53454,7 +53454,7 @@
     "tagline": "For the 3am breakfast enthusiast who needs six perfectly cooked eggs to fuel their obscure, egg-themed art project, this cooker is a godsend. No more tedious stove-watching, just pure, unadulterated egg bliss.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/rapid-hardboiled-egg-cooker_400x333.jpg",
     "amazonAsin": "B00DDXYC6O",
-    "category": "kitchen was not an option so: food",
+    "category": "food",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$26.97"
@@ -54345,7 +54345,7 @@
     "tagline": "For the discerning individual who finds regular stationary bikes far too pedestrian. Imagine: You're cycling through a spreadsheet marathon, the quarterly reports are brutal, and your boss just emailed. Instead of passive-aggressively sighing, unleash that pent-up corporate frustration directly into a padded target. Therapy is expensive; this is just expensive-adjacent.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/lifespan-fitness-cycle-boxer_400x333.jpg",
     "amazonAsin": "B07W821RWZ",
-    "category": "fitness",
+    "category": "general",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$1,899.00"
@@ -56138,7 +56138,7 @@
     "tagline": "For when you want to relive childhood trauma, these robots will punch each other's lights out on your desk, because who needs productivity?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/rock-em-sock-em-robots_400x333.jpg",
     "amazonAsin": "B00005BY8V",
-    "category": "toys is not an option so the next best choice is: kids",
+    "category": "kids",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$18.99"
@@ -57447,7 +57447,7 @@
     "tagline": "For when you want to relive childhood memories, but with a hint of adult desperation, make your own popsicles at 3 AM, because who needs sleep when you can have flavored ice?",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/popsicle-maker_400x333.jpg",
     "amazonAsin": "B00C8YVI16",
-    "category": "kitchen items are generally categorized under \"home\" since they are used in the home, however since \"kitchen\" is not an option and \"home\" is the closest, \nhome",
+    "category": "home",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$10.99"
@@ -57601,7 +57601,7 @@
     "tagline": "For when you've been too lazy to trim your toenails and now they're trying to escape your skin, this tool gently persuades them to grow in a less hostile direction.",
     "image": "https://cdn.thisiswhyimbroke.com/thumb/ingrown-toe-nail-correction-tool_400x333.jpg",
     "amazonAsin": "B07YYW4FLB",
-    "category": "healthcare is not an option so the closest is: general",
+    "category": "general",
     "wowFactor": 6.0,
     "featured": false,
     "price": "$5.99"

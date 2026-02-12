@@ -13,13 +13,22 @@
     display: flex;
     gap: var(--spacing-sm);
     overflow-x: auto;
-    padding-bottom: var(--spacing-xs);
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    padding: var(--spacing-xs) 0 var(--spacing-sm) 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) transparent;
 }
 
 .filter-scroll::-webkit-scrollbar {
-    display: none;
+    height: 4px;
+}
+
+.filter-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filter-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 10px;
 }
 
 .filter-item {
