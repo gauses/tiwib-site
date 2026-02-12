@@ -8,7 +8,7 @@ export default function Hero({ searchQuery, onSearch, resultCount }) {
                     This Is Why <span className="gradient-text">I'm Broke</span>
                 </h1>
                 <p className="hero-subtitle">
-                    The internet's greatest gallery of things you don't need, but absolutely want. 🎨
+                    The internet's greatest gallery of things you don't need, but absolutely want. 💸
                 </p>
 
                 <div className="search-container">
