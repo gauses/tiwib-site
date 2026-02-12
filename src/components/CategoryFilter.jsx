@@ -14,7 +14,8 @@ const CATEGORY_MAP = {
     'office': 'Office Gear',
     'kids': 'Gifts for Kids',
     'novelty': 'Novelty & Gifts',
-    'adult': 'Adult & Nightlife'
+    'adult': 'Adult & Nightlife',
+    'fitness': 'Fitness & Health'
 };
 
 export default function CategoryFilter({ categories, selectedCategory, onSelectCategory }) {
@@ -28,18 +29,25 @@ export default function CategoryFilter({ categories, selectedCategory, onSelectC
                     >
                         All
                     </button>
-                    {categories.map(cat => (
-                        cat !== 'general' && (
+                    {categories.map(cat => {
+                        if (cat === 'general') return null;
+
+                        // Safeguard: Truncate very long AI categories if they somehow bypass cleanup
+                        const displayName = CATEGORY_MAP[cat] || (cat.length > 20 ? cat.substring(0, 17) + '...' : cat);
+
+                        return (
                             <button
                                 key={cat}
                                 className={`filter-item ${selectedCategory === cat ? 'active' : ''}`}
                                 onClick={() => onSelectCategory(cat)}
+                                title={cat}
                             >
-                                {CATEGORY_MAP[cat] || cat}
+                                {displayName}
                             </button>
-                        )
-                    ))}
+                        );
+                    })}
                 </div>
+                <div className="scroll-hint right"></div>
             </div>
         </div>
     );
