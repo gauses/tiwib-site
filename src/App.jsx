@@ -23,6 +23,13 @@ function App() {
     // Initial load of wishlist
     const saved = JSON.parse(localStorage.getItem('savedProducts') || '[]');
     setWishlist(saved);
+
+    // Deep linking: Check for category in URL
+    const params = new URLSearchParams(window.location.search);
+    const categoryParam = params.get('category');
+    if (categoryParam) {
+      setSelectedCategory(categoryParam);
+    }
   }, []);
 
   const toggleWishlist = () => setIsWishlistOpen(!isWishlistOpen);
