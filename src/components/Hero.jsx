@@ -1,12 +1,24 @@
-import './Hero.css';
-
-export default function Hero({ searchQuery, onSearch, resultCount }) {
-    return (
-        <div className="hero">
-            <div className="hero-content">
+export default function Hero({ searchQuery, onSearch, resultCount, selectedCategory }) {
+    const getHeroTitle = () => {
+        if (!selectedCategory || selectedCategory === 'all') {
+            return (
                 <h1 className="hero-title">
                     This Is Why <span className="gradient-text">I'm Broke</span>
                 </h1>
+            );
+        }
+        const cleanCat = selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1);
+        return (
+            <h1 className="hero-title">
+                Cool <span className="gradient-text">{cleanCat}</span> Stuff
+            </h1>
+        );
+    };
+
+    return (
+        <div className="hero">
+            <div className="hero-content">
+                {getHeroTitle()}
                 <p className="hero-subtitle">
                     The internet's greatest gallery of things you don't need, but absolutely want. 💸
                 </p>

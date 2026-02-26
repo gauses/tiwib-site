@@ -32,6 +32,30 @@ function App() {
     }
   }, []);
 
+  // Update document title and meta description based on selected category
+  useEffect(() => {
+    const baseTitle = "This Is Why I'm Broke | Cool Stuff, Unique Gifts & Weird Gadgets";
+    const baseDesc = "Discover the coolest, weirdest, and most innovative products on the web. A curated collection of unique gift ideas and must-have gadgets!";
+
+    if (selectedCategory === 'all') {
+      document.title = baseTitle;
+      document.querySelector('meta[name="description"]')?.setAttribute('content', baseDesc);
+    } else {
+      const cleanCat = selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1);
+      document.title = `Cool ${cleanCat} Stuff | ${baseTitle}`;
+      document.querySelector('meta[name="description"]')?.setAttribute('content', `Browse our curated collection of unique ${selectedCategory} gifts, gadgets, and cool stuff. ${baseDesc}`);
+    }
+
+    // Update canonical link
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      const url = selectedCategory === 'all'
+        ? "https://www.saucytits.com/"
+        : `https://www.saucytits.com/?category=${selectedCategory}`;
+      canonical.setAttribute('href', url);
+    }
+  }, [selectedCategory]);
+
   const toggleWishlist = () => setIsWishlistOpen(!isWishlistOpen);
 
   const toggleSave = (product) => {
@@ -63,7 +87,7 @@ function App() {
   }, [allProducts, selectedCategory, searchQuery]);
 
   const jsonLd = useMemo(() => {
-    return {
+    const itemList = {
       "@context": "https://schema.org",
       "@type": "ItemList",
       "itemListElement": filteredProducts.slice(0, 20).map((p, index) => ({
@@ -83,7 +107,31 @@ function App() {
         }
       }))
     };
-  }, [filteredProducts]);
+
+    const breadcrumbs = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.saucytits.com/"
+        }
+      ]
+    };
+
+    if (selectedCategory !== 'all') {
+      breadcrumbs.itemListElement.push({
+        "@type": "ListItem",
+        "position": 2,
+        "name": selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1),
+        "item": `https://www.saucytits.com/?category=${selectedCategory}`
+      });
+    }
+
+    return [itemList, breadcrumbs];
+  }, [filteredProducts, selectedCategory]);
 
   return (
     <div className="app">
@@ -99,6 +147,7 @@ function App() {
           searchQuery={searchQuery}
           onSearch={setSearchQuery}
           resultCount={filteredProducts.length}
+          selectedCategory={selectedCategory}
         />
 
         <CategoryFilter
