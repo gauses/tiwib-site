@@ -1,3 +1,5 @@
+import './Hero.css';
+
 export default function Hero({ searchQuery, onSearch, resultCount, selectedCategory }) {
     const getHeroTitle = () => {
         if (!selectedCategory || selectedCategory === 'all') {
