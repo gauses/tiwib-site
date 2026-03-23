@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-03-23T03:54:33.549Z",
+  "totalProducts": 19640,
+  "chunkSize": 250,
+  "all": {
+    "count": 19640,
+    "paths": [
+      "/catalog/all/chunk-001.json",
+      "/catalog/all/chunk-002.json",
+      "/catalog/all/chunk-003.json",
+      "/catalog/all/chunk-004.json",
+      "/catalog/all/chunk-005.json",
+      "/catalog/all/chunk-006.json",
+      "/catalog/all/chunk-007.json",
+      "/catalog/all/chunk-008.json",
+      "/catalog/all/chunk-009.json",
+      "/catalog/all/chunk-010.json",
+      "/catalog/all/chunk-011.json",
+      "/catalog/all/chunk-012.json",
+      "/catalog/all/chunk-013.json",
+      "/catalog/all/chunk-014.json",
+      "/catalog/all/chunk-015.json",
+      "/catalog/all/chunk-016.json",
+      "/catalog/all/chunk-017.json",
+      "/catalog/all/chunk-018.json",
+      "/catalog/all/chunk-019.json",
+      "/catalog/all/chunk-020.json",
+      "/catalog/all/chunk-021.json",
+      "/catalog/all/chunk-022.json",
+      "/catalog/all/chunk-023.json",
+      "/catalog/all/chunk-024.json",
+      "/catalog/all/chunk-025.json",
+      "/catalog/all/chunk-026.json",
+      "/catalog/all/chunk-027.json",
+      "/catalog/all/chunk-028.json",
+      "/catalog/all/chunk-029.json",
+      "/catalog/all/chunk-030.json",
+      "/catalog/all/chunk-031.json",
+      "/catalog/all/chunk-032.json",
+      "/catalog/all/chunk-033.json",
+      "/catalog/all/chunk-034.json",
+      "/catalog/all/chunk-035.json",
+      "/catalog/all/chunk-036.json",
+      "/catalog/all/chunk-037.json",
+      "/catalog/all/chunk-038.json",
+      "/catalog/all/chunk-039.json",
+      "/catalog/all/chunk-040.json",
+      "/catalog/all/chunk-041.json",
+      "/catalog/all/chunk-042.json",
+      "/catalog/all/chunk-043.json",
+      "/catalog/all/chunk-044.json",
+      "/catalog/all/chunk-045.json",
+      "/catalog/all/chunk-046.json",
+      "/catalog/all/chunk-047.json",
+      "/catalog/all/chunk-048.json",
+      "/catalog/all/chunk-049.json",
+      "/catalog/all/chunk-050.json",
+      "/catalog/all/chunk-051.json",
+      "/catalog/all/chunk-052.json",
+      "/catalog/all/chunk-053.json",
+      "/catalog/all/chunk-054.json",
+      "/catalog/all/chunk-055.json",
+      "/catalog/all/chunk-056.json",
+      "/catalog/all/chunk-057.json",
+      "/catalog/all/chunk-058.json",
+      "/catalog/all/chunk-059.json",
+      "/catalog/all/chunk-060.json",
+      "/catalog/all/chunk-061.json",
+      "/catalog/all/chunk-062.json",
+      "/catalog/all/chunk-063.json",
+      "/catalog/all/chunk-064.json",
+      "/catalog/all/chunk-065.json",
+      "/catalog/all/chunk-066.json",
+      "/catalog/all/chunk-067.json",
+      "/catalog/all/chunk-068.json",
+      "/catalog/all/chunk-069.json",
+      "/catalog/all/chunk-070.json",
+      "/catalog/all/chunk-071.json",
+      "/catalog/all/chunk-072.json",
+      "/catalog/all/chunk-073.json",
+      "/catalog/all/chunk-074.json",
+      "/catalog/all/chunk-075.json",
+      "/catalog/all/chunk-076.json",
+      "/catalog/all/chunk-077.json",
+      "/catalog/all/chunk-078.json",
+      "/catalog/all/chunk-079.json"
+    ],
+    "pagePath": "/"
+  },
+  "categories": [
+    {
+      "slug": "adult",
+      "count": 113,
+      "paths": [
+        "/catalog/categories/adult/chunk-001.json"
+      ],
+      "pagePath": "/category/adult/"
+    },
+    {
+      "slug": "apparel",
+      "count": 1120,
+      "paths": [
+        "/catalog/categories/apparel/chunk-001.json",
+        "/catalog/categories/apparel/chunk-002.json",
+        "/catalog/categories/apparel/chunk-003.json",
+        "/catalog/categories/apparel/chunk-004.json",
+        "/catalog/categories/apparel/chunk-005.json"
+      ],
+      "pagePath": "/category/apparel/"
+    },
+    {
+      "slug": "food",
+      "count": 985,
+      "paths": [
+        "/catalog/categories/food/chunk-001.json",
+        "/catalog/categories/food/chunk-002.json",
+        "/catalog/categories/food/chunk-003.json",
+        "/catalog/categories/food/chunk-004.json"
+      ],
+      "pagePath": "/category/food/"
+    },
+    {
+      "slug": "gaming",
+      "count": 885,
+      "paths": [
+        "/catalog/categories/gaming/chunk-001.json",
+        "/catalog/categories/gaming/chunk-002.json",
+        "/catalog/categories/gaming/chunk-003.json",
+        "/catalog/categories/gaming/chunk-004.json"
+      ],
+      "pagePath": "/category/gaming/"
+    },
+    {
+      "slug": "general",
+      "count": 398,
+      "paths": [
+        "/catalog/categories/general/chunk-001.json",
+        "/catalog/categories/general/chunk-002.json"
+      ],
+      "pagePath": "/category/general/"
+    },
+    {
+      "slug": "home",
+      "count": 3518,
+      "paths": [
+        "/catalog/categories/home/chunk-001.json",
+        "/catalog/categories/home/chunk-002.json",
+        "/catalog/categories/home/chunk-003.json",
+        "/catalog/categories/home/chunk-004.json",
+        "/catalog/categories/home/chunk-005.json",
+        "/catalog/categories/home/chunk-006.json",
+        "/catalog/categories/home/chunk-007.json",
+        "/catalog/categories/home/chunk-008.json",
+        "/catalog/categories/home/chunk-009.json",
+        "/catalog/categories/home/chunk-010.json",
+        "/catalog/categories/home/chunk-011.json",
+        "/catalog/categories/home/chunk-012.json",
+        "/catalog/categories/home/chunk-013.json",
+        "/catalog/categories/home/chunk-014.json",
+        "/catalog/categories/home/chunk-015.json"
+      ],
+      "pagePath": "/category/home/"
+    },
+    {
+      "slug": "kids",
+      "count": 746,
+      "paths": [
+        "/catalog/categories/kids/chunk-001.json",
+        "/catalog/categories/kids/chunk-002.json",
+        "/catalog/categories/kids/chunk-003.json"
+      ],
+      "pagePath": "/category/kids/"
+    },
+    {
+      "slug": "kitchen",
+      "count": 1,
+      "paths": [
+        "/catalog/categories/kitchen/chunk-001.json"
+      ],
+      "pagePath": "/category/kitchen/"
+    },
+    {
+      "slug": "novelty",
+      "count": 6404,
+      "paths": [
+        "/catalog/categories/novelty/chunk-001.json",
+        "/catalog/categories/novelty/chunk-002.json",
+        "/catalog/categories/novelty/chunk-003.json",
+        "/catalog/categories/novelty/chunk-004.json",
+        "/catalog/categories/novelty/chunk-005.json",
+        "/catalog/categories/novelty/chunk-006.json",
+        "/catalog/categories/novelty/chunk-007.json",
+        "/catalog/categories/novelty/chunk-008.json",
+        "/catalog/categories/novelty/chunk-009.json",
+        "/catalog/categories/novelty/chunk-010.json",
+        "/catalog/categories/novelty/chunk-011.json",
+        "/catalog/categories/novelty/chunk-012.json",
+        "/catalog/categories/novelty/chunk-013.json",
+        "/catalog/categories/novelty/chunk-014.json",
+        "/catalog/categories/novelty/chunk-015.json",
+        "/catalog/categories/novelty/chunk-016.json",
+        "/catalog/categories/novelty/chunk-017.json",
+        "/catalog/categories/novelty/chunk-018.json",
+        "/catalog/categories/novelty/chunk-019.json",
+        "/catalog/categories/novelty/chunk-020.json",
+        "/catalog/categories/novelty/chunk-021.json",
+        "/catalog/categories/novelty/chunk-022.json",
+        "/catalog/categories/novelty/chunk-023.json",
+        "/catalog/categories/novelty/chunk-024.json",
+        "/catalog/categories/novelty/chunk-025.json",
+        "/catalog/categories/novelty/chunk-026.json"
+      ],
+      "pagePath": "/category/novelty/"
+    },
+    {
+      "slug": "office",
+      "count": 288,
+      "paths": [
+        "/catalog/categories/office/chunk-001.json",
+        "/catalog/categories/office/chunk-002.json"
+      ],
+      "pagePath": "/category/office/"
+    },
+    {
+      "slug": "outdoor",
+      "count": 1722,
+      "paths": [
+        "/catalog/categories/outdoor/chunk-001.json",
+        "/catalog/categories/outdoor/chunk-002.json",
+        "/catalog/categories/outdoor/chunk-003.json",
+        "/catalog/categories/outdoor/chunk-004.json",
+        "/catalog/categories/outdoor/chunk-005.json",
+        "/catalog/categories/outdoor/chunk-006.json",
+        "/catalog/categories/outdoor/chunk-007.json"
+      ],
+      "pagePath": "/category/outdoor/"
+    },
+    {
+      "slug": "pet",
+      "count": 462,
+      "paths": [
+        "/catalog/categories/pet/chunk-001.json",
+        "/catalog/categories/pet/chunk-002.json"
+      ],
+      "pagePath": "/category/pet/"
+    },
+    {
+      "slug": "tech",
+      "count": 1878,
+      "paths": [
+        "/catalog/categories/tech/chunk-001.json",
+        "/catalog/categories/tech/chunk-002.json",
+        "/catalog/categories/tech/chunk-003.json",
+        "/catalog/categories/tech/chunk-004.json",
+        "/catalog/categories/tech/chunk-005.json",
+        "/catalog/categories/tech/chunk-006.json",
+        "/catalog/categories/tech/chunk-007.json",
+        "/catalog/categories/tech/chunk-008.json"
+      ],
+      "pagePath": "/category/tech/"
+    },
+    {
+      "slug": "vehicles",
+      "count": 1120,
+      "paths": [
+        "/catalog/categories/vehicles/chunk-001.json",
+        "/catalog/categories/vehicles/chunk-002.json",
+        "/catalog/categories/vehicles/chunk-003.json",
+        "/catalog/categories/vehicles/chunk-004.json",
+        "/catalog/categories/vehicles/chunk-005.json"
+      ],
+      "pagePath": "/category/vehicles/"
+    }
+  ]
+}

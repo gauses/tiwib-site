@@ -1,4 +1,13 @@
 import './Footer.css';
+import { getCategoryLabel } from '../utils/categories';
+import { getCategoryPath } from '../utils/routes';
+
+const FOOTER_LINKS = [
+    { label: 'Home', href: '/' },
+    { label: getCategoryLabel('novelty'), href: getCategoryPath('novelty') },
+    { label: getCategoryLabel('tech'), href: getCategoryPath('tech') },
+    { label: 'Sitemap', href: '/sitemap.xml' },
+];
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -17,9 +26,11 @@ function Footer() {
                     <div className="footer-section">
                         <h4 className="footer-heading">Quick Links</h4>
                         <ul className="footer-links">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#privacy">Privacy Policy</a></li>
+                            {FOOTER_LINKS.map((link) => (
+                                <li key={link.href}>
+                                    <a href={link.href}>{link.label}</a>
+                                </li>
+                            ))}
                         </ul>
                     </div>
 

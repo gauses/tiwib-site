@@ -62,6 +62,10 @@
   /* Typography */
   --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Sticky Layout */
+  --header-height: 4.75rem;
+  --sticky-stack-offset: calc(var(--header-height) + var(--spacing-sm));
 }
 
 /* Base Styles */
@@ -229,6 +233,8 @@ a:hover {
   :root {
     --spacing-xl: 2rem;
     --spacing-2xl: 3rem;
+    --header-height: 4.25rem;
+    --sticky-stack-offset: calc(var(--header-height) + 0.75rem);
   }
 
   .container {

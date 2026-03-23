@@ -1,24 +1,9 @@
 import React from 'react';
 import './CategoryFilter.css';
+import { getCategoryMeta } from '../utils/categories';
+import { getCategoryPath } from '../utils/routes';
 
-const CATEGORY_MAP = {
-    'general': { label: 'All', icon: '✨' },
-    'tech': { label: 'Tech & Gadgets', icon: '⚡' },
-    'home': { label: 'Home & Kitchen', icon: '🏠' },
-    'apparel': { label: 'Apparel & Fashion', icon: '👕' },
-    'gaming': { label: 'Gaming & Fun', icon: '🎮' },
-    'outdoor': { label: 'Lifestyle & Outdoor', icon: '🏔️' },
-    'food': { label: 'Food & Drink', icon: '🍕' },
-    'vehicles': { label: 'Vehicles', icon: '🚗' },
-    'pet': { label: 'Gifts for Pets', icon: '🐾' },
-    'office': { label: 'Office Gear', icon: '💼' },
-    'kids': { label: 'Gifts for Kids', icon: '🧸' },
-    'novelty': { label: 'Novelty & Gifts', icon: '🎁' },
-    'adult': { label: 'Adult & Nightlife', icon: '🔞' },
-    'fitness': { label: 'Fitness & Health', icon: '💪' }
-};
-
-export default function CategoryFilter({ categories, selectedCategory, onSelectCategory }) {
+export default function CategoryFilter({ categories, selectedCategory }) {
     const scrollRef = React.useRef(null);
 
     const scroll = (direction) => {
@@ -39,31 +24,28 @@ export default function CategoryFilter({ categories, selectedCategory, onSelectC
                 </button>
 
                 <div className="filter-scroll" ref={scrollRef}>
-                    <button
+                    <a
+                        href={getCategoryPath('all')}
                         className={`filter-item ${selectedCategory === 'all' ? 'active' : ''}`}
-                        onClick={() => onSelectCategory('all')}
+                        aria-current={selectedCategory === 'all' ? 'page' : undefined}
                     >
-                        <span className="item-icon">{CATEGORY_MAP['general'].icon}</span>
+                        <span className="item-icon">{getCategoryMeta('all').icon}</span>
                         <span className="item-label">All</span>
-                    </button>
+                    </a>
                     {categories.map(cat => {
-                        if (cat === 'general') return null;
-
-                        const config = CATEGORY_MAP[cat] || {
-                            label: cat.length > 20 ? cat.substring(0, 17) + '...' : cat,
-                            icon: '🏷️'
-                        };
+                        const config = getCategoryMeta(cat);
 
                         return (
-                            <button
+                            <a
                                 key={cat}
+                                href={getCategoryPath(cat)}
                                 className={`filter-item ${selectedCategory === cat ? 'active' : ''}`}
-                                onClick={() => onSelectCategory(cat)}
+                                aria-current={selectedCategory === cat ? 'page' : undefined}
                                 title={cat}
                             >
                                 <span className="item-icon">{config.icon}</span>
                                 <span className="item-label">{config.label}</span>
-                            </button>
+                            </a>
                         );
                     })}
                 </div>

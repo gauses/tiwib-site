@@ -8,7 +8,6 @@
     transition: all var(--transition-normal);
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.08);
-    cursor: pointer;
     animation: fadeUp 0.6s ease-out forwards;
 }
 
@@ -37,6 +36,12 @@
     /* Pinterest tiles often lean square/tall */
     background: #fcfcfc;
     overflow: hidden;
+}
+
+.product-card-link {
+    position: absolute;
+    inset: 0;
+    display: block;
 }
 
 .product-image {
@@ -122,6 +127,14 @@
     overflow: hidden;
 }
 
+.product-title-link {
+    color: inherit;
+}
+
+.product-title-link:hover {
+    color: var(--primary);
+}
+
 .product-tagline {
     font-size: 0.8125rem;
     line-height: 1.4;
@@ -150,6 +163,9 @@
 }
 
 .view-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: #efefef;
     color: #111;
     border: none;
@@ -163,6 +179,7 @@
 
 .view-button:hover {
     background: #e2e2e2;
+    color: #111;
 }
 
 .featured-badge {
@@ -176,4 +193,34 @@
     font-size: 0.65rem;
     font-weight: 800;
     z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .product-content {
+        padding: 10px 12px 12px;
+    }
+
+    .product-title {
+        font-size: 0.875rem;
+    }
+
+    .product-tagline {
+        display: none;
+    }
+
+    .product-footer {
+        padding-top: 0;
+        border-top: none;
+        align-items: flex-end;
+        gap: 0.5rem;
+    }
+
+    .product-price {
+        font-size: 0.9375rem;
+    }
+
+    .view-button {
+        padding: 6px 10px;
+        font-size: 0.6875rem;
+    }
 }

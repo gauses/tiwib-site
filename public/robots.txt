@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.saucytits.com/sitemap.xml
+Sitemap: https://saucytits.com/sitemap.xml

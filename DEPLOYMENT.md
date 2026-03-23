@@ -1,69 +1,61 @@
-# TIWIB Site - Deployment Guide
+# TIWIB Site - Cloudflare Deployment Guide
 
-## 🚀 Quick Deploy to Vercel
+## 🚀 推荐方案
 
-### Option 1: Vercel CLI (Fastest)
+这个项目现在默认按 **Cloudflare Pages** 部署来维护：
 
-```bash
-# Install Vercel CLI globally
-npm install -g vercel
+- 构建命令：`npm run build`
+- 输出目录：`dist`
+- Pages 配置文件：`wrangler.jsonc`
+- Node 版本锁定：`.node-version`
 
-# Login
-vercel login
+## 方式 1：Cloudflare Dashboard + Git（推荐）
 
-# Deploy
-cd d:\projects\TIWIB_Niche\tiwib-site
-vercel
+1. 把代码推到 GitHub。
+2. 进入 Cloudflare Dashboard。
+3. 打开 `Workers & Pages`。
+4. 选择 `Create application` → `Pages` → `Connect to Git`。
+5. 选择仓库后填写：
+   - Framework preset: `Vite`
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+   - Root directory: `tiwib-site`（如果你的仓库根目录是 `TIWIB_Niche`）
+6. 点击部署。
 
-# Production deploy
-vercel --prod
-```
+## 方式 2：Wrangler 直接部署
 
-### Option 2: Vercel Dashboard
-
-1. Go to [vercel.com](https://vercel.com)
-2. Click "Add New" → "Project"
-3. Drag and drop the `tiwib-site` folder
-4. Click "Deploy"
-
-### Option 3: GitHub + Vercel (Recommended)
+### 首次创建项目
 
 ```bash
-# Create GitHub repo and push
-git remote add origin https://github.com/YOUR_USERNAME/tiwib-site.git
-git branch -M main
-git push -u origin main
-
-# Then connect on Vercel dashboard
+cd D:\projects\TIWIB_Niche\tiwib-site
+npx wrangler pages project create tiwib-site
 ```
 
-## 📊 Site Stats
+### 生产部署
 
-- **Products**: 24 scraped from ThisIsWhyImBroke.com
-- **Build Size**: 205KB JS + 11KB CSS
-- **Framework**: Vite + React
-- **Ready**: ✅ Production build complete
+```bash
+cd D:\projects\TIWIB_Niche\tiwib-site
+npm run cf:deploy
+```
 
-## 🎯 Featured Products
+### 查看部署日志
 
-- Crypto Castle Airbnb ($18,598)
-- Red Bull RB17 Hypercar ($6.7M)
-- 1945 P-51 Mustang ($2.1M)
-- Cobalt Valkyrie Aircraft ($700K)
-- Xbox Crocs ($80)
-- ...and 19 more!
+```bash
+npm run cf:tail
+```
 
-## 🔧 Post-Deployment
+## 自定义域名
 
-1. **Get URL**: `https://tiwib-site.vercel.app`
-2. **Apply for Amazon Associates**
-3. **Update affiliate tags** in `src/utils/affiliateLink.js`
-4. **Add more products** using the scraper tool
+如果你要把现有域名从 Vercel 切到 Cloudflare：
 
-## 💡 Next Steps
+1. 在 Pages 项目里打开 `Custom domains`
+2. 添加你的正式域名
+3. 按 Cloudflare 提示改 DNS
+4. 等 SSL 签发完成后再切主流量
 
-- [ ] Deploy site
-- [ ] Apply for Amazon Associates
-- [ ] Run AI rewriter on remaining products
-- [ ] Add Google Analytics
-- [ ] Share on social media
+## 当前项目状态
+
+- 前端构建通过
+- `catalog` 分块加载已启用
+- 当前站点数据量约 `19,640` 条
+- 适合直接部署到 Cloudflare Pages

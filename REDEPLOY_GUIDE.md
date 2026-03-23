@@ -1,16 +1,16 @@
-# 如何在 Vercel 触发重新部署
+# 如何在 Cloudflare 触发重新部署
 
 ## 📋 步骤说明
 
-### 方法 1: 自动触发（推荐）
+### 方法 1: Git 自动触发（推荐）
 
-一旦你 `git push` 成功，Vercel 会**自动检测到 GitHub 的更新**并触发重新部署。
+一旦你 `git push` 成功，Cloudflare Pages 会**自动检测到 GitHub 的更新**并触发重新部署。
 
 **等待时间**: 通常 30 秒 - 2 分钟
 
 **查看进度**:
-1. 访问 https://vercel.com/dashboard
-2. 找到你的项目 `gauses_tiwib_niche`
+1. 访问 https://dash.cloudflare.com/
+2. 找到你的 Pages 项目 `tiwib-site`
 3. 你会看到新的部署正在进行中
 
 ### 方法 2: 手动触发
@@ -19,40 +19,38 @@
 
 #### 步骤：
 
-1. **访问 Vercel Dashboard**
-   - https://vercel.com/dashboard
-   - 找到项目 `gauses_tiwib_niche`
+1. **访问 Cloudflare Dashboard**
+   - https://dash.cloudflare.com/
+   - 打开 `Workers & Pages`
+   - 找到项目 `tiwib-site`
 
 2. **进入 Deployments 页面**
    - 点击项目名称
-   - 点击顶部的 "Deployments" 标签
+   - 打开部署列表
 
 3. **触发重新部署**
-   - 找到最新的部署记录
-   - 点击右侧的 "..." 三个点
-   - 选择 "Redeploy"
-   - 确认 "Redeploy"
+   - 选择目标部署
+   - 执行重新部署
 
-### 方法 3: 从 Git 标签触发
+### 方法 3: Wrangler 重新部署
 
-在 Deployments 页面：
-1. 点击 "Create Deployment"
-2. 选择分支: `main` 或 `master`
-3. 点击 "Deploy"
+```bash
+cd D:\projects\TIWIB_Niche\tiwib-site
+npm run cf:deploy
+```
 
 ## 🔍 监控部署状态
 
 ### 实时查看构建日志
 
-1. 在 Deployments 页面
+1. 在 Pages 部署页面
 2. 点击正在进行的部署
-3. 查看 "Building" 状态
-4. 点击 "View Build Logs" 查看详细日志
+3. 查看构建和上传日志
 
 ### 部署状态说明
 
 - 🟡 **Building** - 正在构建
-- 🟡 **Deploying** - 正在部署
+- 🟡 **Deploying** - 正在上传 / 发布
 - 🟢 **Ready** - 部署成功
 - 🔴 **Error** - 部署失败
 
@@ -66,7 +64,7 @@
 
 2. **访问网站**
    - 点击 "Visit" 按钮
-   - 或访问: https://gausestiwibniche.vercel.app
+   - 或访问你的 `*.pages.dev` 地址
 
 3. **测试功能**
    - 检查产品是否正常显示
@@ -91,12 +89,12 @@
 **解决**: 检查依赖是否完整
 
 **错误**: `Output directory not found`
-**解决**: 检查 vercel.json 配置
+**解决**: 检查 Pages 输出目录是否为 `dist`
 
 ## 📞 需要帮助
 
 如果遇到问题：
-1. 截图 Vercel 的构建日志
+1. 截图 Cloudflare 的构建日志
 2. 发给我诊断
 3. 我会帮你快速解决
 

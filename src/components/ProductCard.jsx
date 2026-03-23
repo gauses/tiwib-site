@@ -1,41 +1,26 @@
-import { useState, useEffect } from 'react';
 import './ProductCard.css';
-import { handleProductClick } from '../utils/affiliateLink';
+import { getProductPath } from '../utils/routes';
 
 function ProductCard({ product, isSaved, onToggleSave }) {
+    const productPath = getProductPath(product);
+
     const toggleSave = (e) => {
-        e.stopPropagation(); // Don't trigger card click
+        e.preventDefault();
+        e.stopPropagation();
         onToggleSave();
     };
 
-    const handleClick = () => {
-        const affiliateLink = handleProductClick(product);
-        window.open(affiliateLink, '_blank', 'noopener,noreferrer');
-    };
-
-    const handleKeyDown = (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            handleClick();
-        }
-    };
-
     return (
-        <article
-            className="product-card"
-            onClick={handleClick}
-            onKeyDown={handleKeyDown}
-            tabIndex="0"
-            role="button"
-            aria-label={`View ${product.title}`}
-        >
+        <article className="product-card">
             <div className="product-image-wrapper">
-                <img
-                    src={product.image}
-                    alt={product.title}
-                    className="product-image"
-                    loading="lazy"
-                />
+                <a href={productPath} className="product-card-link" aria-label={`View details for ${product.title}`}>
+                    <img
+                        src={product.image}
+                        alt={product.title}
+                        className="product-image"
+                        loading="lazy"
+                    />
+                </a>
                 <button
                     className={`save-button ${isSaved ? 'is-saved' : ''}`}
                     onClick={toggleSave}
@@ -52,18 +37,18 @@ function ProductCard({ product, isSaved, onToggleSave }) {
             </div>
 
             <div className="product-content">
-                <h3 className="product-title">{product.title}</h3>
+                <h3 className="product-title">
+                    <a href={productPath} className="product-title-link">
+                        {product.title}
+                    </a>
+                </h3>
                 <p className="product-tagline">{product.tagline}</p>
 
                 <div className="product-footer">
-                    <span className="product-price">{product.price}</span>
-                    <button
-                        className="view-button"
-                        tabIndex="-1"
-                        aria-hidden="true"
-                    >
-                        Check It Out
-                    </button>
+                    <span className="product-price">{product.price || 'See details'}</span>
+                    <a href={productPath} className="view-button">
+                        View Details
+                    </a>
                 </div>
             </div>
         </article>

@@ -21,7 +21,7 @@
 - **样式方案**: Vanilla CSS
 - **字体**: Outfit (标题) + Inter (正文)
 - **内容管理**: JSON-based
-- **部署**: Vercel / Netlify (推荐)
+- **部署**: Cloudflare Pages (推荐)
 
 ## 项目结构
 
@@ -51,7 +51,7 @@ pet-niche-site/
 
 ⚠️ **重要**: 本项目需要 Node.js 20.19+ 或 22.12+
 
-当前系统 Node.js 版本: 18.17.0 (不兼容)
+当前工作区 Node.js 版本: 22.22.0 (兼容)
 
 ### 安装依赖
 
@@ -83,7 +83,7 @@ const AFFILIATE_TAG = 'youraffid-20'; // 替换为你的 tag
 
 ## 添加产品
 
-编辑 `src/data/products.json`:
+编辑 `data/products.json`:
 
 ```json
 {
@@ -98,6 +98,8 @@ const AFFILIATE_TAG = 'youraffid-20'; // 替换为你的 tag
   "price": "$XX.XX"
 }
 ```
+
+运行 `npm run dev` 或 `npm run build` 时，项目会自动把数据切成 `public/catalog` 下的分块文件，避免一次性加载整份大 JSON。
 
 ### 产品字段说明
 
@@ -148,18 +150,28 @@ const AFFILIATE_TAG = 'youraffid-20'; // 替换为你的 tag
 
 ## 部署指南
 
-### Vercel (推荐)
+### Cloudflare Pages (推荐)
 
 1. 推送代码到 GitHub
-2. 在 Vercel 导入项目
-3. 自动检测 Vite 配置
-4. 一键部署
+2. 在 Cloudflare Dashboard 打开 `Workers & Pages`
+3. 选择 `Create application` → `Pages` → `Connect to Git`
+4. 选择仓库后填写：
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+   - Root directory: `tiwib-site`（如果仓库根目录是 `TIWIB_Niche`）
+5. 首次部署完成后，把自定义域名绑定到项目
 
-### Netlify
+### Wrangler 直传部署
 
-1. 构建命令: `npm run build`
-2. 发布目录: `dist`
-3. 自动部署
+```bash
+npm run cf:deploy
+```
+
+如果还没创建 Pages 项目，先执行：
+
+```bash
+npx wrangler pages project create tiwib-site
+```
 
 ## SEO 优化
 

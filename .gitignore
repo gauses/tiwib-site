@@ -11,6 +11,8 @@ build
 .env
 .env.local
 .env.production.local
+.npm-cache/
+.wrangler/
 
 # editor
 .vscode

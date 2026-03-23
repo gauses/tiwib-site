@@ -1,15 +1,23 @@
 import './Header.css';
+import { getCategoryPath } from '../utils/routes';
 
 export default function Header({ wishlistCount, onToggleWishlist }) {
     return (
         <header className="header">
             <div className="header-container">
-                <div className="logo">
+                <a href="/" className="logo" aria-label="Go to homepage">
                     <span className="logo-icon">💸</span>
                     <span className="logo-text">TIWIB</span>
-                </div>
+                </a>
                 <nav className="nav">
-                    <a href="#" className="nav-link">Home</a>
+                    <a href="/" className="nav-link">
+                        <span className="nav-label-desktop">Home</span>
+                        <span className="nav-label-mobile">Catalog</span>
+                    </a>
+                    <a href={getCategoryPath('novelty')} className="nav-link">
+                        <span className="nav-label-desktop">Popular Gifts</span>
+                        <span className="nav-label-mobile">Popular</span>
+                    </a>
                     <button
                         className="wishlist-toggle"
                         onClick={onToggleWishlist}
